@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Exclude</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-6866 -1029)">
+<g id="Exclude">
+<use xlink:href="#path0_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 6890 1053)" fill="#333333"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 12 24C 18.6274 24 24 18.6274 24 12C 24 5.37256 18.6274 -8.11627e-16 12 0C 5.37256 8.11627e-16 -8.11627e-16 5.37256 0 12C 8.11627e-16 18.6274 5.37256 24 12 24ZM 9.29297 7.70715L 13.5859 12L 9.29297 16.2928L 10.707 17.7072L 15.707 12.7072L 16.4141 12L 15.707 11.2928L 10.707 6.29285L 9.29297 7.70715Z"/>
+</defs>
+</svg>

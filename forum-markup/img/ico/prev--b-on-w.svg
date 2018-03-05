@@ -1,0 +1,18 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-37256 -505)">
+<g id="Group 2">
+<g id="Exclude">
+<use xlink:href="#path0_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 37280 529)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 37270 522)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 24 12C 24 18.6274 18.6274 24 12 24C 5.37258 24 0 18.6274 0 12C 0 5.37258 5.37258 0 12 0C 18.6274 0 24 5.37258 24 12Z"/>
+<path id="path1_stroke" d="M 5 5L 5.70711 5.70711L 6.41421 5L 5.70711 4.29289L 5 5ZM -0.707107 0.707107L 4.29289 5.70711L 5.70711 4.29289L 0.707107 -0.707107L -0.707107 0.707107ZM 4.29289 4.29289L -0.707107 9.29289L 0.707107 10.7071L 5.70711 5.70711L 4.29289 4.29289Z"/>
+</defs>
+</svg>

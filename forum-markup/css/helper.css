@@ -1,0 +1,132 @@
+/* очистка обтикания */
+.h-clearfix:before {
+	content: " ";
+	display: table;
+}
+.h-clearfix:after {
+	content: "";
+	width: 100%;
+	clear: both;
+	display: block;
+}
+
+/* отступы */
+.h-m_a {
+	margin: auto;
+}
+.h-m_s {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.h-m_m {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.h-m_l {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.h-m_st {
+	margin-top: 10px;
+}
+.h-m_sl {
+	margin-left: 10px;
+}
+.h-m_sr {
+	margin-right: 10px;
+}
+.h-m_sb {
+	margin-bottom: 10px;
+}
+.h-m_mt {
+	margin-top: 20px;
+}
+.h-m_ml {
+	margin-left: 20px;
+}
+.h-m_mr {
+	margin-right: 20px;
+}
+.h-m_mb {
+	margin-bottom: 20px;
+}
+.h-m_lt {
+	margin-top: 40px;
+}
+.h-m_ll {
+	margin-left: 40px;
+}
+.h-m_lr {
+	margin-right: 40px;
+}
+.h-m_lb {
+	margin-bottom: 40px;
+}
+
+/* тип блока */
+.h-inline {
+	display: inline-block;
+}
+.h-block {
+	display: block;
+}
+.h-hidden {
+	display: none;
+}
+
+/* выравнивание */
+.h-center {
+	text-align: center;
+}
+.h-left {
+	text-align: left;
+}
+.h-right {
+	text-align: right;
+}
+.h-top {
+	vertical-align: top;
+}
+.h-middle {
+	vertical-align: middle;
+}
+.h-bottom {
+	vertical-align: bottom;
+}
+
+/* капс */
+.h-uppercase {
+	text-transform: uppercase;
+}
+
+/* покрытие */
+.h-cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: transparent;
+	background: rgba(255,255,255,0);
+}
+
+@media screen and (max-width: 1040px) {
+	.h-only-desktop {
+		display: none !important;
+	}
+}
+@media screen and (min-width: 1040px) {
+	.h-only-mobile {
+		display: none !important;
+	}
+}
+@media all and (orientation:landscape) {
+	.h-only-portrait {
+		display: none !important;
+	}
+}
+@media all and (orientation:portrait) {
+	.h-only-landscape {
+		display: none !important;
+	}
+}
