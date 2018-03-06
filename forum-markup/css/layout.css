@@ -212,8 +212,18 @@ a:hover, a:focus, a:active {
 	.b-header.t-white .b-logo--white-image {
 		display: block;
 	}
+@media screen and (max-width: 1680px) {
+	.b-logo {
+		width: 16.666%;
+		padding: 0;
+	}
+	.b-logo--image {
+		height: 60px;
+	}
+}
 @media screen and (max-width: 1040px) {
 	.b-logo {
+		width: auto;
 		padding: 0 20px 0 0;
 	}
 	.b-logo--image {
@@ -251,6 +261,21 @@ a:hover, a:focus, a:active {
 		display: inline-block;
 		vertical-align: baseline;
 	}
+@media screen and (max-width: 1680px) {
+	.b-phone {
+		padding: 0 0 0 30px;
+	}
+	.b-phone--number {
+		font-size: 16px;
+		line-height: 19px;
+	}
+	.b-phone--action-wrapper {
+		padding-top: 4px;
+	}
+	.b-phone--action-button {
+		font-size: 12px;
+	}
+}
 @media screen and (max-width: 1040px) {
 	.b-phone {
 		display: none;
@@ -361,8 +386,27 @@ a:hover, a:focus, a:active {
 	.b-menu.f-opened .b-menu--close-button {
 		display: inline-block;
 	}
+@media screen and (max-width: 1680px) {
+	.b-menu {
+		width: 66.666%;
+		margin: -2px 16.666% 0;
+	}
+	.b-menu--item {
+		padding-right: 30px;
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+@media screen and (max-width: 1240px) {
+	.b-menu--item {
+		padding-right: 10px;
+		font-size: 12px;
+	}
+}
 @media screen and (max-width: 1040px) {
 	.b-menu {
+		width: auto;
+		margin: auto;
 		padding: 0;
 		clear: none;
 	}
@@ -401,7 +445,9 @@ a:hover, a:focus, a:active {
 	.b-menu--item {
 		margin: 0 0 48px;
 		padding: 0 0 0 30px;
+		font-size: 18px;
 		font-weight: normal;
+		line-height: 20px;
 		display: block;
 	}
 	.b-menu--item.f-active:before {

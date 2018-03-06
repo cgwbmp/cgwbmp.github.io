@@ -216,17 +216,6 @@
 
 .b-promo-image {
   position: relative;
-  background: url("../img/promo/bg.jpg") 50% 50% no-repeat;
-}
-.b-promo-image:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0,0,0,0.15);
-  pointer-events: none;
 }
 .b-promo-image.t-p1 {
   background-position: 56% 0;
@@ -240,13 +229,56 @@
   background-position: 0 100%;
   background-size: 3950px auto;
 }
+  .b-promo-image .b-wrapper {
+    position: relative;
+  }
 @media screen and (max-width: 1040px) {
+  .b-promo-image:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.15);
+    pointer-events: none;
+  }
   .b-promo-image.t-p1 {
+    background-image: url("../img/promo/bg.jpg");
     background-size: 1220px auto;
   }
-  .b-promo-image.t-p3,
-  .b-promo-image.t-p2 {
-    background: none;
+}
+
+.b-promo-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../img/promo/bg.jpg") 56% 0 no-repeat;
+  background-attachment: fixed;
+  background-size: 3950px auto;
+  pointer-events: none;
+}
+.b-promo-bg.f-animation-enabled {
+  -o-transition: all 2s;
+  -moz-transition: all 2s;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+.b-promo-bg:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.15);
+  pointer-events: none;
+}
+@media screen and (max-width: 1040px) {
+  .b-promo-bg {
+    display: none;
   }
 }
 

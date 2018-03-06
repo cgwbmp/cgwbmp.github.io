@@ -1028,7 +1028,15 @@
 		font-size: 14px;
 		color: #999;
 	}
+@media screen and (max-width: 1400px) {
+	.c-doc-list {
+		padding-left: 70px;
+	}
+}
 @media screen and (max-width: 1040px) {
+	.c-doc-list {
+		padding-left: 0;
+	}
 	.c-doc-list--item + .c-doc-list--item {
 		margin-top: 20px;
 	}
