@@ -5,14 +5,16 @@
 
 	$(function () {
 		// menu: open action
-		$(document).on('click', '.e-open-menu', function () {
+		$('.e-open-menu').on('click', function () {
 			$('#menu').addClass('f-opened');
 			$('body').addClass('f-menu-opened');
 		});
 		// menu: close action
-		$(document).on('click', '.e-close-menu', function () {
-			$('#menu').removeClass('f-opened');
-			$('body').removeClass('f-menu-opened');
+		$('.e-close-menu').on('click', function () {
+			setTimeout(function () {
+				$('#menu').removeClass('f-opened');
+				$('body').removeClass('f-menu-opened');
+			}, 50);
 		});
 		// swiper
 		$('.e-swiper').each(function () {
