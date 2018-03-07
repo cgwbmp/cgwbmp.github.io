@@ -345,7 +345,7 @@ a:hover, a:focus, a:active {
 		float: right;
 		display: none;
 	}
-	.b-menu--open-button{
+	.b-menu--open-button {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -362,6 +362,7 @@ a:hover, a:focus, a:active {
 		position: absolute;
 		top: 20px;
 		right: 15px;
+		z-index: 1;
 		width: 20px;
 		height: 20px;
 		margin: 0;

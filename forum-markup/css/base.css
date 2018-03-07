@@ -129,6 +129,7 @@
 	border-radius: 24px;
 	font-size: 16px;
 	font-weight: 500;
+	color: #333;
 	line-height: 20px;
 	display: block;
 	-moz-box-sizing: border-box;
@@ -168,6 +169,7 @@
 	border-radius: 24px;
 	font-size: 16px;
 	font-weight: 500;
+	color: #333;
 	line-height: 20px;
 	resize: vertical;
 	display: block;
@@ -208,6 +210,7 @@
 	border-radius: 24px;
 	font-size: 16px;
 	font-weight: 500;
+	color: #333;
 	line-height: 20px;
 	display: block;
 	-webkit-appearance: none;

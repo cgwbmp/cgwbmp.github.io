@@ -29,6 +29,7 @@
   .b-main-promo--view-button {
     width: 370px;
     height: 64px;
+    padding: 0 20px;
     background: rgba(254,131,30,0.68);
     border-radius: 6px;
     font-size: 20px;
@@ -38,6 +39,7 @@
     text-align: center;
     display: inline-block;
     vertical-align: baseline;
+    box-sizing: border-box;
   }
 @media screen and (max-width: 1400px) {
   .b-main-promo--title {
@@ -74,11 +76,17 @@
     padding: 36px 0 0;
   }
   .b-main-promo--view-button {
+    width: auto;
     max-width: 340px;
     margin-left: auto;
     margin-right: auto;
     height: 52px;
     line-height: 52px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .b-main-promo--title {
+    font-size: 46px;
   }
 }
 
