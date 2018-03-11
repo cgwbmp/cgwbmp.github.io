@@ -13,6 +13,7 @@
 	<link type="text/css" href="css/general.css" rel="stylesheet">
 	<link type="text/css" href="css/add.css" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
 
 	<script type="text/javascript" src="lib/html5shiv.js"></script>
 
@@ -135,10 +136,14 @@
 							<div class="swiper-container">
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<img class="b-info-section--image swiper-image" src="upload/img-1.jpg" alt="">
+										<button class="b-info-section--image-holder c-block-button e-modal-gallery" data-image="upload/img-14.jpg" data-group="gallery-1">
+											<img class="b-info-section--image swiper-image" src="upload/img-1.jpg" alt="">
+										</button>
 									</div>
 									<div class="swiper-slide">
-										<img class="b-info-section--image swiper-image" src="upload/img-2.jpg" alt="">
+										<button class="b-info-section--image-holder c-block-button e-modal-gallery" data-image="upload/img-15.jpg" data-group="gallery-1">
+											<img class="b-info-section--image swiper-image" src="upload/img-2.jpg" alt="">
+										</button>
 									</div>
 								</div>
 							</div>
@@ -280,7 +285,7 @@
 	</div>
 
 	<!-- Feedback modal -->
-	<div id="feedback-modal" class="c-modal t-s modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+	<div id="feedback-modal" class="c-modal t-s modal fade animated fadeIn" tabindex="-1" role="dialog" aria-hidden="true">
 	  <div class="c-modal--wrapper modal-dialog" role="document">
 	    <div class="c-modal--content">
 				<button class="c-modal--close-button" type="button" data-dismiss="modal">
@@ -313,7 +318,7 @@
 	</div>
 
 	<!-- Feedback success modal -->
-	<div id="feedback-modal--success" class="c-modal t-s modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+	<div id="feedback-modal--success" class="c-modal t-s modal fade animated fadeIn" tabindex="-1" role="dialog" aria-hidden="true">
 	  <div class="c-modal--wrapper modal-dialog" role="document">
 	    <div class="c-modal--content">
 				<button class="c-modal--close-button" type="button" data-dismiss="modal">
@@ -341,6 +346,22 @@
 							</button>
 						</div>
 					</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Gallery map modal -->
+	<div id="gallery-modal" class="c-modal t-full modal fade animated fadeIn" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="c-modal--wrapper modal-dialog" role="document">
+	    <div class="c-modal--content">
+				<button class="c-modal--close-button" type="button" data-dismiss="modal">
+					Закрыть
+				</button>
+				<div class="c-modal--holder">
+
+					<img class="b-gallery-image" src="upload/img-14.jpg" alt="">
+
 	      </div>
 	    </div>
 	  </div>

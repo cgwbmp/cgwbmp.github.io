@@ -91,6 +91,7 @@ a:hover, a:focus, a:active {
 
 .b-footer {
 	position: relative;
+	background: #fff;
 }
 	.b-footer--wrapper {
 		padding: 40px;

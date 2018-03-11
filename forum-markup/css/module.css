@@ -290,6 +290,65 @@
   }
 }
 
+@media screen and (min-width: 1040px) {
+  .b-promo-animation {
+    position: relative;
+  }
+  .b-promo-animation.f-animation-enabled {
+    height: 2000px;
+  }
+  .b-promo-animation.f-animation-enabled .b-promo-animation--mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+    .b-promo-animation.f-animation-enabled .b-promo-animation--wrapper {
+      position: absolute;
+      top: 0;
+      left: -30%;
+      width: 4000px;
+      height: 2250px;
+      background: url("../img/promo/bg.jpg") 0 0 no-repeat;
+      background-size: 100%;
+    }
+    .b-promo-animation.f-animation-enabled .b-promo-animation--wrapper {
+      -o-transition: all 1s;
+      -moz-transition: all 1s;
+      -webkit-transition: all 1s;
+      transition: all 1s;
+    }
+      .b-promo-animation.f-animation-enabled .b-secondary-promo {
+      position: static;
+    }
+    .b-promo-animation.f-animation-enabled .t-animation-p1 {
+      position: absolute;
+      top: 53%;
+      left: 43%;
+      right: auto;
+      bottom: auto;
+      width: 585px;
+    }
+    .b-promo-animation.f-animation-enabled .t-animation-p2 {
+      position: absolute;
+      top: 53%;
+      left: auto;
+      right: 6%;
+      bottom: auto;
+      width: 585px;
+    }
+    .b-promo-animation.f-animation-enabled .t-animation-p3 {
+      position: absolute;
+      top: 53%;
+      left: 6%;
+      right: auto;
+      bottom: auto;
+      width: 585px;
+    }
+}
+
 .b-promo-read-more {
   font-size: 14px;
   font-weight: 500;
@@ -873,7 +932,8 @@
     left: -110px;
     width: 92px;
     height: 42px;
-    background: url("../img/module/map-logo.svg") 0 0 no-repeat;
+    background: url("../img/logo--black.svg") 0 0 no-repeat;
+    background-size: 100% auto;
   }
   .b-contacts-section .b-contacts-box {
     position: relative;
@@ -1025,4 +1085,31 @@
   .b-tour-section--ico {
     max-height: 80px;
   }
+}
+
+.b-modal-gallery {
+  height: 100%;
+}
+  .b-modal-gallery .swiper-image {
+    height: 100%;
+    margin: auto;
+    display: block;
+  }
+  .b-modal-gallery .swiper-button-prev {
+    width: 56px;
+    height: 56px;
+    background: rgba(0,0,0,0.8) url("../img/ico/arrow-left--white.svg") 50% 50% no-repeat;
+    border-radius: 50%;
+  }
+  .b-modal-gallery .swiper-button-next {
+    width: 56px;
+    height: 56px;
+    background: rgba(0,0,0,0.8) url("../img/ico/arrow-right--white.svg") 50% 50% no-repeat;
+    border-radius: 50%;
+  }
+
+.b-modal-image {
+  height: 100%;
+  margin: auto;
+  display: block;
 }

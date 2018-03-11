@@ -894,6 +894,16 @@
 	.c-modal.t-full .c-modal--wrapper {
 		margin: 60px;
 	}
+	.c-modal.t-gallery .c-modal--wrapper {
+		margin: 60px 0 0;
+		height: 90%;
+		background: none;
+		box-sizing: border-box;
+	}
+		.c-modal.t-gallery .c-modal--content,
+		.c-modal.t-gallery .c-modal--holder {
+			height: 100%;
+		}
 	.c-modal--close-button {
 		position: absolute;
 		top: -25px;
@@ -907,6 +917,9 @@
 		overflow: hidden;
 		text-indent: 110%;
 		white-space: nowrap;
+	}
+	.c-modal.t-gallery .c-modal--close-button {
+		right: 25px;
 	}
 	.c-modal--header {
 		padding: 25px 30px 0;
