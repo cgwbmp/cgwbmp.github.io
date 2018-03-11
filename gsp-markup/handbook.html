@@ -1,0 +1,2730 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <meta http-equiv="content-type" content="charset=UTF-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Template</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+  <link type="text/css" href="css/uikit.css" rel="stylesheet">
+  <link type="text/css" href="css/layout.css" rel="stylesheet">
+  <link type="text/css" href="css/module.css" rel="stylesheet">
+  <link type="text/css" href="css/add.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+  <script src=https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+  <div class="b-page" id="page">
+
+    <header class="b-header" id="header">
+
+      <div class="uk-container">
+        <div uk-grid>
+          <div class="uk-width-expand@s">
+
+            <h1 class="b-logo">
+              <a class="b-logo--link" href="/">
+                <img class="b-logo--image" src="img/logo.png" alt="GSP">
+              </a>
+            </h1>
+
+          </div>
+          <div class="uk-width-auto@s">
+
+            <div class="b-access-action">
+              <button class="b-access-action--signin uk-button uk-button-primary uk-button-small" uk-toggle="target: #signin" type="button">
+                ВХОД
+              </button>
+              <button class="b-access-action--registry uk-button uk-button-primary uk-button-small" uk-toggle="target: #registry" type="button">
+                РЕГИСТРАЦИЯ
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <main class="b-content" id="content">
+
+      <section class="b-page-info">
+        <div class="uk-container">
+          <h1 class="b-page-info--title">
+            Справочник
+          </h1>
+        </div>
+      </section>
+
+      <section class="b-handbook b-section">
+        <div class="uk-container">
+
+          <section class="b-expanded-box uk-margin-bottom e-spoiler">
+            <div class="b-expanded-box--header e-spoiler--button">
+              <button class="b-expanded-box--toggle-button">
+                <span class="b-expanded-box--open-ico" uk-icon="icon: plus"></span>
+                <span class="b-expanded-box--close-ico" uk-icon="icon: minus"></span>
+              </button>
+              <h2 class="b-expanded-box--title uk-h4">
+                Тарифы
+              </h2>
+            </div>
+            <div class="b-expanded-box--body">
+              <div class="uk-padding">
+                <div class="uk-grid" uk-grid>
+                  <div class="uk-width-1-2@s">
+                    <article class="b-article">
+                      <h3>
+                        Грузовладельцу
+                      </h3>
+                      <div class="b-price-list uk-margin-bottom">
+                        <div class="b-price-list--item">
+                          <div class="b-price-list--badge">
+                            <span class="b-price-list--value">
+                              0
+                            </span>
+                            <span class="b-price-list--currency">
+                              руб.
+                            </span>
+                          </div>
+                          <div class="b-price-list--wrapper">
+                            <div class="b-price-list--holder">
+                              <strong class="uk-text-warning">Бесплатная</strong> подача типовой заявки на перевозку груза на форме сайта, подгрузкой файла, по API.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="b-price-list--item">
+                          <div class="b-price-list--badge">
+                            <span class="b-price-list--value">
+                              0
+                            </span>
+                            <span class="b-price-list--currency">
+                              руб.
+                            </span>
+                          </div>
+                          <div class="b-price-list--wrapper">
+                            <div class="b-price-list--holder">
+                              <strong class="uk-text-warning">Бесплатная</strong> оперативная коммуникация по Telegram, Skype, Viber — со встроенными рабочими модулями обмена информацией.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="b-price-list--item">
+                          <div class="b-price-list--badge">
+                            <span class="b-price-list--value">
+                              0
+                            </span>
+                            <span class="b-price-list--currency">
+                              руб.
+                            </span>
+                          </div>
+                          <div class="b-price-list--wrapper">
+                            <div class="b-price-list--holder">
+                              <strong class="uk-text-warning">Бесплатное</strong> отслеживание транспорта и перемещение груза.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="b-price-list--item">
+                          <div class="b-price-list--badge">
+                            <span class="b-price-list--value">
+                              99
+                            </span>
+                            <span class="b-price-list--currency">
+                              руб.
+                            </span>
+                          </div>
+                          <div class="b-price-list--wrapper">
+                            <div class="b-price-list--holder">
+                              <strong class="uk-text-warning">Моментальная</strong> подача транспорта на загрузку. Покупка контактов ближайшего на карте свободного транспорта на загрузку.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr>
+                      <p>
+                        <strong>Размещение заявок в обработку на форме, либо загрузка файла для сбора предложений от перевозчиков.</strong>
+                      </p>
+                    </article>
+                  </div>
+                  <div class="uk-width-1-2@s">
+                    <article class="b-article">
+                      <h3>
+                        Перевозчику
+                      </h3>
+                      <div class="b-price-list uk-margin-bottom">
+                        <div class="b-price-list--item">
+                          <div class="b-price-list--badge">
+                            <span class="b-price-list--value">
+                              99
+                            </span>
+                            <span class="b-price-list--currency">
+                              руб.
+                            </span>
+                          </div>
+                          <div class="b-price-list--wrapper">
+                            <div class="b-price-list--holder">
+                              <strong class="uk-text-warning">Моментальный</strong> выкуп контрактов заказчика 1-й вновь размещенной заявки на перевозку груза, послечего запись удаляется с витрины грузов.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="b-price-list--item">
+                          <div class="b-price-list--badge">
+                            <span class="b-price-list--value">
+                              9
+                            </span>
+                            <span class="b-price-list--currency">
+                              руб.
+                            </span>
+                          </div>
+                          <div class="b-price-list--wrapper">
+                            <div class="b-price-list--holder">
+                              <strong class="uk-text-warning">Стандартная</strong> покупка контрактов заявки на перевозку груза (доступно к покупке не более 10 перевозчикам).
+                            </div>
+                          </div>
+                        </div>
+                        <div class="b-price-list--item">
+                          <div class="b-price-list--badge">
+                            <span class="b-price-list--value">
+                              0
+                            </span>
+                            <span class="b-price-list--currency">
+                              руб.
+                            </span>
+                          </div>
+                          <div class="b-price-list--wrapper">
+                            <div class="b-price-list--holder">
+                              <strong class="uk-text-warning">Бесплатная</strong> подача цены на перевозку груза вместе с предстоставлением своих контактов грузовладельцу.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr>
+                      <p>
+                        <strong>Типовое предложение к договору ТЭО доступное к скачиванию в файле для редактирования или переадресация в адрез третьих лиц.</strong>
+                      </p>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="b-expanded-box uk-margin-bottom e-spoiler">
+            <div class="b-expanded-box--header e-spoiler--button">
+              <button class="b-expanded-box--toggle-button">
+                <span class="b-expanded-box--open-ico" uk-icon="icon: plus"></span>
+                <span class="b-expanded-box--close-ico" uk-icon="icon: minus"></span>
+              </button>
+              <h2 class="b-expanded-box--title uk-h4">
+                Заявка
+              </h2>
+            </div>
+            <div class="b-expanded-box--body">
+              <div class="uk-padding">
+                <div class="uk-flex-center" uk-grid>
+                  <div class="uk-width-5-6@s">
+                    <article class="b-article">
+                      <h3>
+                        Договор-заявка на перевозку груза содержит:
+                      </h3>
+                      <hr>
+                      <ol>
+                        <li>
+                          Наименование сторон (перевозчика и грузополучателя.
+                        </li>
+                        <li>
+                          Фамилию, имя, отчество уполномоченных лиц сторон соглашения, реквизиты документов, на основании которых они действуют.
+                        </li>
+                        <li>
+                          Предмет договора – в данном случае описывается обязательство перевозчика доставить товар надлежащим образом, а отправителя – внести оплату за услугу.
+                        </li>
+                        <li>
+                          Условия реализации договора-заявки:
+                          <ul>
+                            <li>
+                              Дата и время погрузки.
+                            </li>
+                            <li>
+                              Адрес погрузки, наименование и контакты отправителя.
+                            </li>
+                            <li>
+                              Адрес разгрузки, наименование и контакты получателя груза.
+                            </li>
+                            <li>
+                              Указание маршрута.
+                            </li>
+                            <li>
+                              Описание груза (характеристики веса, объема, упаковки и т. д.).
+                            </li>
+                            <li>
+                              Описание необходимого транспорта (в т. ч. его количество).
+                            </li>
+                            <li>
+                              Описание способов погрузки и разгрузки.
+                            </li>
+                            <li>
+                              Расчет стоимости услуги.
+                            </li>
+                            <li>
+                              Условия и способ оплаты (наличный/ безналичный, возможность рассрочки и т.д.).
+                            </li>
+                            <li>
+                              Срок доставки/время разгрузки.
+                            </li>
+                            <li>
+                              Описание выделенного для оказания услуги конкретного транспортного средства, паспортные данные водителя (для автотранспорта).
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          Дополнительные условия, конкретизирующие отдельные пункты заявки.
+                        </li>
+                      </ol>
+                    </article>
+                  </div>
+                </div>
+                <div class="uk-grid" uk-grid>
+                  <div class="uk-width-1-2@s">
+                    <article class="b-article">
+                      <p>
+                        Таким образом, договор-заявка на перевозку грузов представляет собой комбинацию формы стандартного договора и заявки на предоставление указанной услуги с конкретными параметрами. Для отдельных видов транспорта, используемого для перевозки грузов, разработаны свои правила, регламентирующие предоставление указанной услуги.
+                      </p>
+                    </article>
+                  </div>
+                  <div class="uk-width-1-2@s">
+                    <article class="b-article">
+                      <p>
+                        Образец договора-заявки на перевозку груза можно скачать по ссылке:
+                      </p>
+                      <div class="b-files-list">
+                        <div class="b-files-list--item">
+                          <span class="b-files-list--ico">
+                            <span uk-icon="icon: download"></span>
+                          </span>
+                          <a href="#">Договор-заявка на перевозку груза</a>
+                        </div>
+                        <div class="b-files-list--item">
+                          <span class="b-files-list--ico">
+                            <span uk-icon="icon: download"></span>
+                          </span>
+                          <a href="#">Заявка в форме Приложения 1 к Договору ТЭО</a>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="b-expanded-box uk-margin-bottom e-spoiler">
+            <div class="b-expanded-box--header e-spoiler--button">
+              <button class="b-expanded-box--toggle-button">
+                <span class="b-expanded-box--open-ico" uk-icon="icon: plus"></span>
+                <span class="b-expanded-box--close-ico" uk-icon="icon: minus"></span>
+              </button>
+              <h2 class="b-expanded-box--title uk-h4">
+                Общая информация
+              </h2>
+            </div>
+            <div class="b-expanded-box--body">
+              <div class="uk-padding">
+                <div class="uk-grid" uk-grid>
+                  <div class="uk-width-1-2@s">
+                    <article class="b-article">
+                      <p>
+                        <strong>Грузовые автомобильные перевозки</strong> — это перевозки грузов сухопутным транспортом по безрельсовым путям, зарегистрированным в установленном порядке.
+                      </p>
+                    </article>
+                  </div>
+                  <div class="uk-width-1-2@s">
+                    <article class="b-article">
+                      <p>
+                        Благодаря невысокой стоимости перевозки и доступности, грузовые автомобильные перевозки — востребованный вид доставки грузов. Чаще всего автомобили используются на коротких расстояниях от 300-500км.
+                      </p>
+                    </article>
+                  </div>
+                </div>
+                <div class="uk-grid" uk-grid>
+                  <div class="uk-width-1-2@s">
+                    <article class="b-article">
+                      <h3>
+                        Преимущества:
+                      </h3>
+                      <ol>
+                        <li>
+                          Возможность доставки груза «от двери до двери». Это говорит о том, что нет необходимости заказывать дополнительный транспорт.
+                        </li>
+                        <li>
+                          Манёвренность, гибкость, динамичность. Что делает возможным адаптивность транспорта к форс-мажорным ситуациям.
+                        </li>
+                        <li>
+                          Высокая скорость доставки груза.
+                        </li>
+                        <li>
+                          Использование различных маршрутов и схем доставки.
+                        </li>
+                        <li>
+                          Широкие возможности выбора наиболее подходящего перевозчика.
+                        </li>
+                      </ol>
+                    </article>
+                  </div>
+                  <div class="uk-width-1-2@s">
+                    <article class="b-article">
+                      <h3>
+                        Недостатки:
+                      </h3>
+                      <ol>
+                        <li>
+                          Невыгодна на сверхдальних (свыше 7000км) расстояниях.
+                        </li>
+                        <li>
+                          Зависимость от погодных и дорожных условий.
+                        </li>
+                        <li>
+                          Недостаточная экологическая чистота.
+                        </li>
+                        <li>
+                          Возможность хищения груза и угона автотранспортного средства.
+                        </li>
+                        <li>
+                          Ограничения географии грузов. Перевозка только в пределах материка.
+                        </li>
+                      </ol>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="b-expanded-box uk-margin-bottom e-spoiler">
+            <div class="b-expanded-box--header e-spoiler--button">
+              <button class="b-expanded-box--toggle-button">
+                <span class="b-expanded-box--open-ico" uk-icon="icon: plus"></span>
+                <span class="b-expanded-box--close-ico" uk-icon="icon: minus"></span>
+              </button>
+              <h2 class="b-expanded-box--title uk-h4">
+                Виды автотранспорта
+              </h2>
+            </div>
+            <div class="b-expanded-box--body">
+              <div class="uk-padding">
+                <div class="uk-grid-small" uk-grid>
+                  <div class="uk-width-1-3@m uk-width-1-2@s">
+
+                    <div class="b-props-list uk-margin-bottom e-spoiler">
+                      <div class="b-props-list--header e-spoiler--button">
+                        <button class="b-props-list--toggle">
+                          <span class="b-props-list--open-ico" uk-icon="icon: plus"></span>
+                          <span class="b-props-list--close-ico" uk-icon="icon: minus"></span>
+                        </button>
+                        <b>Газель</b>
+                      </div>
+                      <div class="b-props-list--body">
+                        <div class="b-props-list--preview">
+                          <img class="b-props-list--image" src="upload/img-7.jpg" alt="">
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Марка
+                          </span>
+                          Mercedes 2535, MAN, Volvo
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Полезный объем кузова
+                          </span>
+                          34 – 60 м3
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Длина кузова
+                          </span>
+                          6 – 8 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Ширина кузова
+                          </span>
+                          2,4 – 2,5 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Высота кузова
+                          </span>
+                          1,8 – 3 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Вместимость европалет
+                          </span>
+                          12 – 20 шт.
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Где используется?
+                          </p>
+                          <p>
+                            На междугородных и международных маршрутах
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            Термофургон позволяет на длительный срок задерживать определенную температуру, но при этом не может самостоятельно ее изменять (понижать или увеличивать).
+                          </p>
+                          <p>
+                            Изотермический фургон позволяет сохранять температуру при которой производилась загрузка в течение 10-20 суток. (При внешней температуре -10 до +20 градусов).
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            К типу 10-тонников можно отнести отечественные и импортные марки автомобилей. При этом класс делится на 3 типа: грузоподъёмностью 5, 10, 15 тонн.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="b-props-list uk-margin-bottom e-spoiler">
+                      <div class="b-props-list--header e-spoiler--button">
+                        <button class="b-props-list--toggle">
+                          <span class="b-props-list--open-ico" uk-icon="icon: plus"></span>
+                          <span class="b-props-list--close-ico" uk-icon="icon: minus"></span>
+                        </button>
+                        <b>10-тонник тентовый</b>
+                      </div>
+                      <div class="b-props-list--body">
+                        <div class="b-props-list--preview">
+                          <img class="b-props-list--image" src="upload/img-7.jpg" alt="">
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Марка
+                          </span>
+                          Mercedes 2535, MAN, Volvo
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Полезный объем кузова
+                          </span>
+                          34 – 60 м3
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Длина кузова
+                          </span>
+                          6 – 8 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Ширина кузова
+                          </span>
+                          2,4 – 2,5 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Высота кузова
+                          </span>
+                          1,8 – 3 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Вместимость европалет
+                          </span>
+                          12 – 20 шт.
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Где используется?
+                          </p>
+                          <p>
+                            На междугородных и международных маршрутах
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            Термофургон позволяет на длительный срок задерживать определенную температуру, но при этом не может самостоятельно ее изменять (понижать или увеличивать).
+                          </p>
+                          <p>
+                            Изотермический фургон позволяет сохранять температуру при которой производилась загрузка в течение 10-20 суток. (При внешней температуре -10 до +20 градусов).
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            К типу 10-тонников можно отнести отечественные и импортные марки автомобилей. При этом класс делится на 3 типа: грузоподъёмностью 5, 10, 15 тонн.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="b-props-list uk-margin-bottom e-spoiler">
+                      <div class="b-props-list--header e-spoiler--button">
+                        <button class="b-props-list--toggle">
+                          <span class="b-props-list--open-ico" uk-icon="icon: plus"></span>
+                          <span class="b-props-list--close-ico" uk-icon="icon: minus"></span>
+                        </button>
+                        <b>20-тонник изотермический</b>
+                      </div>
+                      <div class="b-props-list--body">
+                        <div class="b-props-list--preview">
+                          <img class="b-props-list--image" src="upload/img-7.jpg" alt="">
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Марка
+                          </span>
+                          Mercedes 2535, MAN, Volvo
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Полезный объем кузова
+                          </span>
+                          34 – 60 м3
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Длина кузова
+                          </span>
+                          6 – 8 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Ширина кузова
+                          </span>
+                          2,4 – 2,5 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Высота кузова
+                          </span>
+                          1,8 – 3 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Вместимость европалет
+                          </span>
+                          12 – 20 шт.
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Где используется?
+                          </p>
+                          <p>
+                            На междугородных и международных маршрутах
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            Термофургон позволяет на длительный срок задерживать определенную температуру, но при этом не может самостоятельно ее изменять (понижать или увеличивать).
+                          </p>
+                          <p>
+                            Изотермический фургон позволяет сохранять температуру при которой производилась загрузка в течение 10-20 суток. (При внешней температуре -10 до +20 градусов).
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            К типу 10-тонников можно отнести отечественные и импортные марки автомобилей. При этом класс делится на 3 типа: грузоподъёмностью 5, 10, 15 тонн.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="uk-width-1-3@m uk-width-1-2@s">
+
+                    <div class="b-props-list uk-margin-bottom e-spoiler">
+                      <div class="b-props-list--header e-spoiler--button">
+                        <button class="b-props-list--toggle">
+                          <span class="b-props-list--open-ico" uk-icon="icon: plus"></span>
+                          <span class="b-props-list--close-ico" uk-icon="icon: minus"></span>
+                        </button>
+                        <b>Газель</b>
+                      </div>
+                      <div class="b-props-list--body">
+                        <div class="b-props-list--preview">
+                          <img class="b-props-list--image" src="upload/img-7.jpg" alt="">
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Марка
+                          </span>
+                          Mercedes 2535, MAN, Volvo
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Полезный объем кузова
+                          </span>
+                          34 – 60 м3
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Длина кузова
+                          </span>
+                          6 – 8 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Ширина кузова
+                          </span>
+                          2,4 – 2,5 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Высота кузова
+                          </span>
+                          1,8 – 3 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Вместимость европалет
+                          </span>
+                          12 – 20 шт.
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Где используется?
+                          </p>
+                          <p>
+                            На междугородных и международных маршрутах
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            Термофургон позволяет на длительный срок задерживать определенную температуру, но при этом не может самостоятельно ее изменять (понижать или увеличивать).
+                          </p>
+                          <p>
+                            Изотермический фургон позволяет сохранять температуру при которой производилась загрузка в течение 10-20 суток. (При внешней температуре -10 до +20 градусов).
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            К типу 10-тонников можно отнести отечественные и импортные марки автомобилей. При этом класс делится на 3 типа: грузоподъёмностью 5, 10, 15 тонн.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="b-props-list uk-margin-bottom e-spoiler">
+                      <div class="b-props-list--header e-spoiler--button">
+                        <button class="b-props-list--toggle">
+                          <span class="b-props-list--open-ico" uk-icon="icon: plus"></span>
+                          <span class="b-props-list--close-ico" uk-icon="icon: minus"></span>
+                        </button>
+                        <b>10-тонник тентовый</b>
+                      </div>
+                      <div class="b-props-list--body">
+                        <div class="b-props-list--preview">
+                          <img class="b-props-list--image" src="upload/img-7.jpg" alt="">
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Марка
+                          </span>
+                          Mercedes 2535, MAN, Volvo
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Полезный объем кузова
+                          </span>
+                          34 – 60 м3
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Длина кузова
+                          </span>
+                          6 – 8 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Ширина кузова
+                          </span>
+                          2,4 – 2,5 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Высота кузова
+                          </span>
+                          1,8 – 3 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Вместимость европалет
+                          </span>
+                          12 – 20 шт.
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Где используется?
+                          </p>
+                          <p>
+                            На междугородных и международных маршрутах
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            Термофургон позволяет на длительный срок задерживать определенную температуру, но при этом не может самостоятельно ее изменять (понижать или увеличивать).
+                          </p>
+                          <p>
+                            Изотермический фургон позволяет сохранять температуру при которой производилась загрузка в течение 10-20 суток. (При внешней температуре -10 до +20 градусов).
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            К типу 10-тонников можно отнести отечественные и импортные марки автомобилей. При этом класс делится на 3 типа: грузоподъёмностью 5, 10, 15 тонн.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="b-props-list uk-margin-bottom e-spoiler">
+                      <div class="b-props-list--header e-spoiler--button">
+                        <button class="b-props-list--toggle">
+                          <span class="b-props-list--open-ico" uk-icon="icon: plus"></span>
+                          <span class="b-props-list--close-ico" uk-icon="icon: minus"></span>
+                        </button>
+                        <b>20-тонник изотермический</b>
+                      </div>
+                      <div class="b-props-list--body">
+                        <div class="b-props-list--preview">
+                          <img class="b-props-list--image" src="upload/img-7.jpg" alt="">
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Марка
+                          </span>
+                          Mercedes 2535, MAN, Volvo
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Полезный объем кузова
+                          </span>
+                          34 – 60 м3
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Длина кузова
+                          </span>
+                          6 – 8 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Ширина кузова
+                          </span>
+                          2,4 – 2,5 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Высота кузова
+                          </span>
+                          1,8 – 3 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Вместимость европалет
+                          </span>
+                          12 – 20 шт.
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Где используется?
+                          </p>
+                          <p>
+                            На междугородных и международных маршрутах
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            Термофургон позволяет на длительный срок задерживать определенную температуру, но при этом не может самостоятельно ее изменять (понижать или увеличивать).
+                          </p>
+                          <p>
+                            Изотермический фургон позволяет сохранять температуру при которой производилась загрузка в течение 10-20 суток. (При внешней температуре -10 до +20 градусов).
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            К типу 10-тонников можно отнести отечественные и импортные марки автомобилей. При этом класс делится на 3 типа: грузоподъёмностью 5, 10, 15 тонн.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="uk-width-1-3@m uk-width-1-2@s">
+
+                    <div class="b-props-list uk-margin-bottom e-spoiler">
+                      <div class="b-props-list--header e-spoiler--button">
+                        <button class="b-props-list--toggle">
+                          <span class="b-props-list--open-ico" uk-icon="icon: plus"></span>
+                          <span class="b-props-list--close-ico" uk-icon="icon: minus"></span>
+                        </button>
+                        <b>Газель</b>
+                      </div>
+                      <div class="b-props-list--body">
+                        <div class="b-props-list--preview">
+                          <img class="b-props-list--image" src="upload/img-7.jpg" alt="">
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Марка
+                          </span>
+                          Mercedes 2535, MAN, Volvo
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Полезный объем кузова
+                          </span>
+                          34 – 60 м3
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Длина кузова
+                          </span>
+                          6 – 8 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Ширина кузова
+                          </span>
+                          2,4 – 2,5 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Высота кузова
+                          </span>
+                          1,8 – 3 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Вместимость европалет
+                          </span>
+                          12 – 20 шт.
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Где используется?
+                          </p>
+                          <p>
+                            На междугородных и международных маршрутах
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            Термофургон позволяет на длительный срок задерживать определенную температуру, но при этом не может самостоятельно ее изменять (понижать или увеличивать).
+                          </p>
+                          <p>
+                            Изотермический фургон позволяет сохранять температуру при которой производилась загрузка в течение 10-20 суток. (При внешней температуре -10 до +20 градусов).
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            К типу 10-тонников можно отнести отечественные и импортные марки автомобилей. При этом класс делится на 3 типа: грузоподъёмностью 5, 10, 15 тонн.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="b-props-list uk-margin-bottom e-spoiler">
+                      <div class="b-props-list--header e-spoiler--button">
+                        <button class="b-props-list--toggle">
+                          <span class="b-props-list--open-ico" uk-icon="icon: plus"></span>
+                          <span class="b-props-list--close-ico" uk-icon="icon: minus"></span>
+                        </button>
+                        <b>10-тонник тентовый</b>
+                      </div>
+                      <div class="b-props-list--body">
+                        <div class="b-props-list--preview">
+                          <img class="b-props-list--image" src="upload/img-7.jpg" alt="">
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Марка
+                          </span>
+                          Mercedes 2535, MAN, Volvo
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Полезный объем кузова
+                          </span>
+                          34 – 60 м3
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Длина кузова
+                          </span>
+                          6 – 8 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Ширина кузова
+                          </span>
+                          2,4 – 2,5 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Высота кузова
+                          </span>
+                          1,8 – 3 м
+                        </div>
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Вместимость европалет
+                          </span>
+                          12 – 20 шт.
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Где используется?
+                          </p>
+                          <p>
+                            На междугородных и международных маршрутах
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            Термофургон позволяет на длительный срок задерживать определенную температуру, но при этом не может самостоятельно ее изменять (понижать или увеличивать).
+                          </p>
+                          <p>
+                            Изотермический фургон позволяет сохранять температуру при которой производилась загрузка в течение 10-20 суток. (При внешней температуре -10 до +20 градусов).
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Особенности
+                          </p>
+                          <p>
+                            К типу 10-тонников можно отнести отечественные и импортные марки автомобилей. При этом класс делится на 3 типа: грузоподъёмностью 5, 10, 15 тонн.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="b-expanded-box uk-margin-bottom e-spoiler">
+            <div class="b-expanded-box--header e-spoiler--button">
+              <button class="b-expanded-box--toggle-button">
+                <span class="b-expanded-box--open-ico" uk-icon="icon: plus"></span>
+                <span class="b-expanded-box--close-ico" uk-icon="icon: minus"></span>
+              </button>
+              <h2 class="b-expanded-box--title uk-h4">
+                Сопутствующие документы
+              </h2>
+            </div>
+            <div class="b-expanded-box--body">
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    ТН — транспортная накладная (раньше ТТН)
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-grid" uk-grid>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong>Транспортная накладная</strong> — документ, предназначенный для учёта движения товарно-материальных ценностей и расчётов за их перевозки автомобильным транспортом.
+                          </p>
+                          <p>
+                            Транспортная накладная составляется грузоотправителем для грузополучателя отдельно на каждый выезд автотранспорта.
+                          </p>
+                          <p>
+                            <strong class="uk-text-warning">Документ необходим для перевозок по РФ.</strong>
+                          </p>
+                          <div class="b-files-list">
+                            <div class="b-files-list--item">
+                              <span class="b-files-list--ico">
+                                <span uk-icon="icon: download"></span>
+                              </span>
+                              <a href="#">Транспортная накладная (ТН) </a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong>Дополнительная информация:</strong>
+                          </p>
+                          <ul>
+                            <li>
+                              Транспортная накладная обязана выписываться предприятиями, которые осуществляют перевозки грузов для нужд своего производства на собственных или арендуемых автомобилях.
+                            </li>
+                            <li>
+                              При выпуске автомобиля на линию, предприятия обязаны выдать водителям путевые листы.
+                            </li>
+                            <li>
+                              В случае, если в транспортной накладной в разделе «Сведения о грузе» нет возможности перечислить все товарно-материальные ценности, то в качестве товарного раздела к транспортной накладной должна прилагаться товарная накладная.
+                            </li>
+                          </ul>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="uk-flex-center" uk-grid>
+                      <div class="uk-width-5-6@s">
+                        <article class="b-article">
+                          <h3>
+                            Транспортная накладная включает в себя два раздела:
+                          </h3>
+                          <ol>
+                            <li>
+                              <strong>Товарный раздел</strong> — пределяет взаимоотношения грузоотправителя и грузополучателя и служит для списания товарно-материальных ценностей у грузоотправителей и оприходованная их у грузополучателей.
+                            </li>
+                            <li>
+                              <strong>Транспортный раздел</strong> — определяет взаимоотношения грузоотправителей (заказчиков автотранспорта) с организацией-владельцем автотранспорта, который выполнил перевозку груза. Раздел служит для учёта транспортной работы и расчётов заказчиков автотранспорта и организацией-владельцем этого автотранспорта за оказанные ими услуги по перевозке грузов.
+                            </li>
+                          </ol>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    Путевой лист
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-grid" uk-grid>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            Путевой лист выдается, когда водитель забирает транспортное средство. Документ необходим для того, чтобы подтвердить расходы на автомобиль.
+                          </p>
+                          <p>
+                            Путевой лист учитывает: пробег, топливо, маршрут, работу водителя.
+                          </p>
+                        </article>
+                      </div>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong class="uk-text-warning">Документ необходим для перевозок по РФ.</strong>
+                          </p>
+                          <div class="b-files-list">
+                            <div class="b-files-list--item">
+                              <span class="b-files-list--ico">
+                                <span uk-icon="icon: download"></span>
+                              </span>
+                              <a href="#">Путевой лист</a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="uk-flex-center" uk-grid>
+                      <div class="uk-width-5-6@s">
+                        <article class="b-article">
+                          <h3>
+                            Порядок оформления путевого листа:
+                          </h3>
+                          <ol>
+                            <li>
+                              Заполняем реквизиты. В документе должны быть указаны:
+                              <ul>
+                                <li>
+                                  Порядковый номер.
+                                </li>
+                                <li>
+                                  Дата выдачи.
+                                </li>
+                                <li>
+                                  Штамп.
+                                </li>
+                                <li>
+                                  Печать учреждения, которому принадлежит автомобиль.
+                                </li>
+                                <li>
+                                  Строка «Лицензионная карточка» заполняется организацией-владельцем транспортного средства, если перевозки лицензированы.
+                                </li>
+                                <li>
+                                  На оборотной стороне путевого листа заполняется маршрут: пункт назначения — время выезда — время возвращения — количество пройденных километров.
+                                </li>
+                                <li>
+                                  Графа «Код заказчика» заполняется в том случае, если транспортное средство используется для сторонних заказчиков.
+                                </li>
+                                <li>
+                                  Раздел «Результат работы за смены» — это зарплата водителя.
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              Срок действия: Путевой лист выдается на один день или смену. На срок больше одного дня(смены) документ выдается в случае, если работа производится во время командировки.
+                            </li>
+                            <li>
+                              Отсутствие путевого листа: штраф 500 рублей.
+                            </li>
+                          </ol>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    Договор
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-grid" uk-grid>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            Договор между грузоотправителем (грузополучателем) и перевозчиком (экспедитором). Или копия договора, заверенная одной из сторон.
+                          </p>
+                          <p>
+                            Договор перевозки груза состоит из комплекса условий, которые определяют права и обязанности участников. Участники обеспечивают доставку груза к месту назначения вовремя и обеспечивают выдачу груза в сохранности.
+                          </p>
+                          <p>
+                            <strong class="uk-text-warning">Документ необходим для перевозок по РФ.</strong>
+                          </p>
+                          <div class="b-files-list">
+                            <div class="b-files-list--item">
+                              <span class="b-files-list--ico">
+                                <span uk-icon="icon: download"></span>
+                              </span>
+                              <a href="#">Договор-заявка на перевозку груза</a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong>Предмет перевозки определяется следующими признаками:</strong>
+                          </p>
+                          <ul>
+                            <li>
+                              Наименование груза.
+                            </li>
+                            <li>
+                              Его масса (вес).
+                            </li>
+                            <li>
+                              Количество мест тарных и штучных грузов.
+                            </li>
+                            <li>
+                              Способ определения веса, вид тары (упаковки).
+                            </li>
+                            <li>
+                              Особые свойства груза.
+                            </li>
+                          </ul>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="uk-flex-center" uk-grid>
+                      <div class="uk-width-5-6@s">
+                        <article class="b-article">
+                          <h3>
+                            Важно знать следующие пункты:
+                          </h3>
+                          <ol>
+                            <li>
+                              В случае, если груз изначально нетранспортабельный (поврежден, не в контейнере или упаковке), то перевозчик имеет полное право отказаться от принятия этих товаров к перевозке. Или транспортабельность данных грузов должна быть подтверждена соответствующим документом, который будет предоставлен перевозчику вместе с транспортной накладной.
+                            </li>
+                            <li>
+                              Срок доставки зависит от вида транспорта, расстояния перевозки и скорости.
+                            </li>
+                            <li>
+                              Оплата за услугу определяется соглашением сторон, если иное не предусмотрено законом или иными правовыми актами.
+                            </li>
+                            <li>
+                              Необходимо различать предмет договора и предмет перевозки:
+                              <ul>
+                                <li>
+                                  Предмет договора — транспортные услуги.
+                                </li>
+                                <li>
+                                  Предмет перевозки — объект (груз).
+                                </li>
+                              </ul>
+                            </li>
+                          </ol>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    Товарная накладная по форме ТОРГ-12
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-grid" uk-grid>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong>ТОРГ-12</strong> — специально разработан для применения в первичном бухгалтерском учёте. Применяют её в торговле для отпуска продукции. Предприятие-продавец предоставляет данный документ, как подтверждение продажи товарно-материальных ценностей предприятию-покупателю.
+                          </p>
+                        </article>
+                      </div>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong class="uk-text-warning">Документ необходим для перевозок по РФ.</strong>
+                          </p>
+                          <div class="b-files-list">
+                            <div class="b-files-list--item">
+                              <span class="b-files-list--ico">
+                                <span uk-icon="icon: download"></span>
+                              </span>
+                              <a href="#">Товарная накладная по форме ТОРГ-12</a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="uk-flex-center" uk-grid>
+                      <div class="uk-width-5-6@s">
+                        <article class="b-article">
+                          <h3>
+                            Документ включает в себя следующие реквизиты:
+                          </h3>
+                          <ol>
+                            <li>
+                              Наименование организаций, заключающих сделку, используемые ими банковские счета для осуществления расчета за поставленный товар, юридический и фактический адрес, ИНН, КПП и контактный номер телефона.
+                            </li>
+                            <li>
+                              В документе обязательно фиксируется дата отгрузки и номер, присвоенный транспортной накладной, сопровождающей груз, подтверждающий законность осуществления данной сделки.
+                            </li>
+                            <li>
+                              В графах «отпуск груза разрешил» и «отпуск груза произвел» обязательно ставятся подписи лиц, ответственных за совершение операции, непременно с расшифровкой и должностью. Далее информацию заверяют оригинальной печатью, если таковая есть.
+                            </li>
+                            <li>
+                              Необходимо указать информацию о доверенности сотрудника, принявшего груз к перевозке (фиксируют номер, когда, кем и кому была выдана).
+                            </li>
+                            <li>
+                              Подпись лица, которому была выписана доверенность, его расшифровка и официально занимаемая должность в организации.
+                            </li>
+                            <li>
+                              Как обязательный реквизит значится содержание хозяйственной операции, отраженное в количественном и денежном эквиваленте.
+                            </li>
+                          </ol>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    Международная товарно-транспортная накладная (CMR)
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-grid" uk-grid>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong>Международная товарно-транспортная накладная CMR</strong> — это документ, наиболее широко используемый при международных грузоперевозках. CMR выписывается для подтверждения заключения договора перевозки, который определяет ответственность отправителя, перевозчика и получателя товара.
+                          </p>
+                        </article>
+                      </div>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong class="uk-text-warning">Документ необходим для перевозок по РФ.</strong>
+                          </p>
+                          <div class="b-files-list">
+                            <div class="b-files-list--item">
+                              <span class="b-files-list--ico">
+                                <span uk-icon="icon: download"></span>
+                              </span>
+                              <a href="#">Международная товарно-транспортная накладная (CMR)</a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="uk-flex-center" uk-grid>
+                      <div class="uk-width-5-6@s">
+                        <article class="b-article">
+                          <h3>
+                            CMR применяется к договору грузоперевозки если он одновременно удовлетворяет 4-ем условиям:
+                          </h3>
+                          <ol>
+                            <li>
+                              За перевозку уплачивается вознаграждение.
+                            </li>
+                            <li>
+                              Места погрузки и отгрузки товара, оговоренные в договоре, находятся в различных государствах.
+                            </li>
+                            <li>
+                              По крайней мере одно из этих государств присоединилось к Конвенции CMR.
+                            </li>
+                            <li>
+                              Перевозка осуществляется автотранспортом.
+                            </li>
+                          </ol>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="uk-grid" uk-grid>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            При пересечении границ государств в накладной делаются соответствующие отметки, при доставке груза в указанное место грузополучатель расписывается в получении груза. При перевозках в страны дальнего зарубежья (или из них в Россию) основным товарно-транспортным документом является международная автомобильная накладная, на CMR должна стоять отметка российского таможенного органа Товар вывезен, которая подтверждает факт вывоза товара за пределы таможенной территории РФ.
+                          </p>
+                        </article>
+                      </div>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            Если груз доставляется в страну — участницу СНГ (или ввозится в Россию из одной из этих стран), перевозка может быть оформлена обычной товарно-транспортной накладной (форма N 1-Т) или CMR-накладной. Для сотрудничества с Белоруссией используется преимущественно номерной бланк. Во всех остальных случаях возможно использование безномерного бланка (либо проставления любой, принятой на предприятии, нумерации).
+                          </p>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    Transports Internationaux Routiers (TIR)
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-grid" uk-grid>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            Существует Международная Конвенция TIR. Компании, специализирующиеся на международных грузоперевозках и являющиеся участниками Конвенции TIR, получают так называемый «Карнет TIR» (Carnet TIR). Он дает право водителям идти до места назначения без досмотра груза на границах. Документ покрывает автомобильные перевозки грузов (осуществляемые в автофургонах, трейлерах, полутрейлерах и контейнерах) между государствами, признавшими «Таможенную конвенцию о международной перевозке грузов с применением книжки международной дорожной перевозки (МДП)» 1959 г. и 1975 г.
+                          </p>
+                        </article>
+                      </div>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong class="uk-text-warning">Документ используется в международных перевозках. </strong>
+                          </p>
+                          <p>
+                            TIR в переводе с французского означает «Международные перевозки» (Transports Internationaux Routiers).
+                          </p>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="uk-flex-center" uk-grid>
+                      <div class="uk-width-5-6@s">
+                        <article class="b-article">
+                          <h3>
+                            Несколько фактов:
+                          </h3>
+                          <ol>
+                            <li>
+                              Надежный автотранспорт (товары перевозятся надежными транспортными средствами, которые исключают возможность проникновения к грузу без видимого нарушения).
+                            </li>
+                            <li>
+                              Международная гарантия (таможенные сборы, в отношении которых существует риск неуплаты, должны обеспечиваться международной гарантией).
+                            </li>
+                            <li>
+                              Карнет TIR. (груз должен сопровождать TIR Carnet, который выданный в стране грузоотправителя и действительный в странах отправления, назначения и транзита в качестве контрольного документа).
+                            </li>
+                            <li>
+                              Взаимное признание мер таможенного контроля. (меры контроля, должны признаваться в странах назначения и транзита).
+                            </li>
+                          </ol>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    Экспортная декларация (EX-1)
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-grid" uk-grid>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong>Экспортная декларация (EX-1)</strong> – это экспортная таможенная декларация, которая является международным документом, подтверждающим экспорт товара.
+                          </p>
+                        </article>
+                      </div>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong class="uk-text-warning">Документ необходим для перевозок по РФ.</strong>
+                          </p>
+                          <div class="b-files-list">
+                            <div class="b-files-list--item">
+                              <span class="b-files-list--ico">
+                                <span uk-icon="icon: download"></span>
+                              </span>
+                              <a href="#">Экспортная декларация EX-1 (Европа)</a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="uk-flex-center" uk-grid>
+                      <div class="uk-width-5-6@s">
+                        <article class="b-article">
+                          <h3>
+                            Декларация ЕХ-1:
+                          </h3>
+                          <ol>
+                            <li>
+                              Оформляется поставщиком/агентом поставщика или перевозчика/экспедитора, которые имеют на это соответствующую лицензию.
+                            </li>
+                            <li>
+                              Она оформляется на груз, произведенный и проданный в Европейском Союзе (ЕС), и следующий за его пределы.
+                            </li>
+                            <li>
+                              Освобождает покупателя от уплаты VAT – внутреннего НДС установленного для всех стран участников ЕС.
+                            </li>
+                            <li>
+                              Содержание декларации:
+                              <ul>
+                                <li>
+                                  В EX-1 не указывается стоимость груза, есть только ссылка на номер инвойса.
+                                </li>
+                                <li>
+                                  В правом верхнем углу указывается MRN номер и штрих код, при сканировании этого штрих кода отображается все необходимая информация. Этот штрих — код содержит информацию о таможне, в которой закрывалась экспортная декларация.
+                                </li>
+                                <li>
+                                  Экспортная декларация EX-1 это один из видов SAD (Single Administrative Document) – единый документ, используемый в ЕС для экспортных, импортных и транзитных процедурпри перемещении грузов.
+                                </li>
+                              </ul>
+                            </li>
+                          </ol>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    Инвойс — Invoice
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-grid" uk-grid>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong>Invoice это Счет-фактура</strong> – коммерческий документ, в котором отражена сделка между покупателем и продавцом.
+                          </p>
+                          <p>
+                            <strong class="uk-text-warning">Документ необходим для перевозок по РФ.</strong>
+                          </p>
+                          <div class="b-files-list">
+                            <div class="b-files-list--item">
+                              <span class="b-files-list--ico">
+                                <span uk-icon="icon: download"></span>
+                              </span>
+                              <a href="#">Invoice Счет-фактура</a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            Это очень важный документ для международных перевозок. Частенько от подробностей указанных в Инвойсе зависит скорость прохождения пограничных таможен. Поэтому перевозчик первым делом смотрит как оформлен Инвойс.
+                          </p>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="uk-flex-center" uk-grid>
+                      <div class="uk-width-5-6@s">
+                        <article class="b-article">
+                          <h3>
+                            Как правило в Инвойсе указано:
+                          </h3>
+                          <ol>
+                            <li>
+                              Наименование товара.
+                            </li>
+                            <li>
+                              Количество каждого наименования.
+                            </li>
+                            <li>
+                              Цена за единицу и общая сумма к оплате.
+                            </li>
+                            <li>
+                              Обязательно должна быть указана дата, номер, названия и реквизиты покупателя и продавца.
+                            </li>
+                            <li>
+                              Если есть налоги то обычно их выделяют отдельно.
+                            </li>
+                            <li>
+                              Дополнительно могут указываться условия сделки, сроки и способы оплаты и отгрузки.
+                            </li>
+                          </ol>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    Packing List — Упаковочный лист
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-grid" uk-grid>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            Упаковочный лист очень похож на инвойс и часто много информации в этих документах дублируется.
+                          </p>
+                          <p>
+                            <strong class="uk-text-warning">Документ необходим для перевозок по РФ.</strong>
+                          </p>
+                          <div class="b-files-list">
+                            <div class="b-files-list--item">
+                              <span class="b-files-list--ico">
+                                <span uk-icon="icon: download"></span>
+                              </span>
+                              <a href="#">Packing list - Упаковочный</a>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            Упаковочный лист очень удобен перевозчику и всем кто имеет дело с погрузкой, разгрузкой, сортировкой и учетом груза, по нему считают количество мест и проверяют целостность груза.
+                          </p>
+                          <p>
+                            Основным отличием от инвойса является отсутствие информации о цене каждой позиции и груза в целом. Но и запретить вам указывать эти данные никто не может. Нет определенной формы и каждая компания сама придумывает форму упаковочного листа.
+                          </p>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="uk-flex-center" uk-grid>
+                      <div class="uk-width-5-6@s">
+                        <article class="b-article">
+                          <h3>
+                            В упаковочном листе кроме данных об отправителе, получателе груза, наименовании груза также указаны:
+                          </h3>
+                          <ol>
+                            <li>
+                              Весовые характеристики груза и упаковок.
+                            </li>
+                            <li>
+                              Объемы и информация о том. во что и как груз упакован.
+                            </li>
+                          </ol>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            </div>
+          </section>
+
+          <section class="b-expanded-box uk-margin-bottom e-spoiler">
+            <div class="b-expanded-box--header e-spoiler--button">
+              <button class="b-expanded-box--toggle-button">
+                <span class="b-expanded-box--open-ico" uk-icon="icon: plus"></span>
+                <span class="b-expanded-box--close-ico" uk-icon="icon: minus"></span>
+              </button>
+              <h2 class="b-expanded-box--title uk-h4">
+                Классификация опасности грузов
+              </h2>
+            </div>
+            <div class="b-expanded-box--body">
+              <div class="uk-padding">
+                <div class="uk-grid" uk-grid>
+                  <div class="uk-width-1-2@s">
+                    <article class="b-article">
+                      <p>
+                        К опасным грузам, требующим особых мер предосторожности при перевозке, относятся вещества и материалы с физико-химическими свойствами высокой степени опасности по ГОСТ 19433-88..
+                      </p>
+                    </article>
+                  </div>
+                  <div class="uk-width-1-2@s">
+                    <article class="b-article">
+                      <p>
+                        Опасные грузы должны предъявляться грузоотправителями к перевозке в таре и упаковке, предусмотренных стандартами или техническими условиями на данную продукцию и ГОСТ 26319-84 «Грузы опасные. Упаковка».
+                      </p>
+                    </article>
+                  </div>
+                </div>
+                <div class="uk-flex-center" uk-grid>
+                  <div class="uk-width-5-6@s">
+                    <article class="b-article">
+                      <div class="b-types-list uk-margin-bottom">
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/1.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/2.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/3.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/4.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/5.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/6.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/7.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/8.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/9.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/10.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/11.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/12.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/13.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/14.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/15.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/16.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/17.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/18.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/19.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/20.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/21.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/22.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/23.jpg" alt="">
+                        </div>
+                        <div class="b-types-list--item">
+                          <img class="b-types-list--image" src="img/categories/24.jpg" alt="">
+                        </div>
+                      </div>
+                      <h3>
+                        Установлена следующая классификация опасных грузов и веществ ADR / АДР:
+                      </h3>
+                      <dl>
+                        <dt>
+                          КЛАСС 1
+                        </dt>
+                        <dd>
+                          взрывчатые материалы (ВМ).
+                        </dd>
+                        <dt>
+                          КЛАСС 2
+                        </dt>
+                        <dd>
+                          газы, сжатые, сжиженные и растворенные под давлением.
+                        </dd>
+                        <dt>
+                          КЛАСС 3
+                        </dt>
+                        <dd>
+                          легковоспламеняющиеся жидкости (ЛВЖ).
+                        </dd>
+                        <dt>
+                          КЛАСС 4
+                        </dt>
+                        <dd>
+                          легковоспламеняющиеся твердые вещества (ЛВТ), самовозгорающиеся вещества (СВ); вещества, выделяющие воспламеняющиеся газы при взаимодействии с водой.
+                        </dd>
+                        <dt>
+                          КЛАСС 5
+                        </dt>
+                        <dd>
+                          окисляющие вещества (ОК) и органические пероксиды (ОП).
+                        </dd>
+                        <dt>
+                          КЛАСС 6
+                        </dt>
+                        <dd>
+                          ядовитые вещества (ЯВ) и инфекционные вещества (ИВ).
+                        </dd>
+                        <dt>
+                          КЛАСС 7
+                        </dt>
+                        <dd>
+                          радиоактивные материалы (РМ).
+                        </dd>
+                        <dt>
+                          КЛАСС 8
+                        </dt>
+                        <dd>
+                          едкие и (или) коррозийные вещества (ЕК).
+                        </dd>
+                        <dt>
+                          КЛАСС 9
+                        </dt>
+                        <dd>
+                          прочие опасные вещества.
+                        </dd>
+                      </dl>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="b-expanded-box uk-margin-bottom e-spoiler">
+            <div class="b-expanded-box--header e-spoiler--button">
+              <button class="b-expanded-box--toggle-button">
+                <span class="b-expanded-box--open-ico" uk-icon="icon: plus"></span>
+                <span class="b-expanded-box--close-ico" uk-icon="icon: minus"></span>
+              </button>
+              <h2 class="b-expanded-box--title uk-h4">
+                Негабаритный груз
+              </h2>
+            </div>
+            <div class="b-expanded-box--body">
+              <div class="uk-padding">
+                <div class="uk-grid" uk-grid>
+                  <div class="uk-width-1-2@s">
+                    <article class="b-article">
+                      <p>
+                        <strong>Негабаритный груз (или крупногабаритный)</strong> — это груз, который вместе с транспортом превышает установленные нормы. То есть, говоря простым языком, один и тот же груз может превышать данные нормы, а может и нет, в зависимости, какой транспорт используется при перевозке. Подробнее смотрите в разделе примеры.
+                      </p>
+                      <p>
+                        <strong>Крупногабаритный груз</strong> — это когда габариты транспортного средства (с грузом и без) превышают хотя бы одно значение «Инструкции по перевозке крупногабаритных и тяжеловесных грузов автомобильным транспортом по дорогам Российской Федерации».
+                      </p>
+                    </article>
+                  </div>
+                  <div class="uk-width-1-2@s">
+                    <article class="b-article">
+                      <p>
+                        <strong>Габарит транспортного средства не должен превышать:</strong>
+                      </p>
+                      <ul>
+                        <li>
+                          По длине — 20м.
+                        </li>
+                        <li>
+                          По ширине — 2,55м.
+                        </li>
+                        <li>
+                          По высоте — 4м.
+                        </li>
+                        <li>
+                          По массе — 38 тонн.
+                        </li>
+                      </ul>
+                    </article>
+                  </div>
+                </div>
+                <div class="uk-grid-small" uk-grid>
+                  <div class="uk-width-1-2@s">
+
+                    <div class="b-props-list uk-margin-bottom e-spoiler">
+                      <div class="b-props-list--header e-spoiler--button">
+                        <button class="b-props-list--toggle">
+                          <span class="b-props-list--open-ico" uk-icon="icon: plus"></span>
+                          <span class="b-props-list--close-ico" uk-icon="icon: minus"></span>
+                        </button>
+                        <b>Перевозки негабаритного груза, пример №1</b>
+                      </div>
+                      <div class="b-props-list--body">
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Груз
+                          </span>
+                          Контейнер ДШВ(м) 12*2,5*3,1
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Решение
+                          </p>
+                          <p>
+                            На обычной сцепке, будь то бортовой прицеп «Шаланда» или контейнеровоз — высота транспортного средства с грузом превысит 4м и будет считаться негабаритным.
+                          </p>
+                          <p>
+                            Но для перевозки можно использовать низко-рамный трал с высотой погрузочной площадки 0,9м, то общая высота составит 4м, а это уже габаритный груз.
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Дополнительно
+                          </p>
+                          <p>
+                            Разница в том, что в первом случае вам придется оформить разрешение на перевозку негабаритного груза, а во втором — нет. Разумеется, второй способ перевозки будет для вас дешевле.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="uk-width-1-2@s">
+
+                    <div class="b-props-list uk-margin-bottom e-spoiler">
+                      <div class="b-props-list--header e-spoiler--button">
+                        <button class="b-props-list--toggle">
+                          <span class="b-props-list--open-ico" uk-icon="icon: plus"></span>
+                          <span class="b-props-list--close-ico" uk-icon="icon: minus"></span>
+                        </button>
+                        <b>Перевозки негабаритного груза, пример №2</b>
+                      </div>
+                      <div class="b-props-list--body">
+                        <div class="b-props-list--item">
+                          <span class="b-props-list--label">
+                            Груз
+                          </span>
+                          Контейнер ДШВ(м) 12*2,5*3,1
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Решение
+                          </p>
+                          <p>
+                            На обычной сцепке, будь то бортовой прицеп «Шаланда» или контейнеровоз — высота транспортного средства с грузом превысит 4м и будет считаться негабаритным.
+                          </p>
+                          <p>
+                            Но для перевозки можно использовать низко-рамный трал с высотой погрузочной площадки 0,9м, то общая высота составит 4м, а это уже габаритный груз.
+                          </p>
+                        </div>
+                        <div class="b-props-list--info">
+                          <p class="b-props-list--label">
+                            Дополнительно
+                          </p>
+                          <p>
+                            Разница в том, что в первом случае вам придется оформить разрешение на перевозку негабаритного груза, а во втором — нет. Разумеется, второй способ перевозки будет для вас дешевле.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="uk-flex-center" uk-grid>
+                  <div class="uk-width-5-6@s">
+                    <article class="b-article">
+                      <h3>
+                        Процесс перевозки негабаритного груза:
+                      </h3>
+                      <ol>
+                        <li>
+                          <strong>Появление необходимости перевезти груз.</strong> <br>Первым делом выясните, является ли ваш груз негабаритным. Для этого ознакомьтесь со статьей «Что такое негабаритный груз?». Если вы убедились, что груз всё же негабаритный и перевезти обычными способами нельзя, то надо узнать, насколько габариты превышают норму. От этого зависит конечная стоимость перевозки.
+                        </li>
+                        <li>
+                          <strong>Поиск транспортной компании.</strong> <br>Соответственно, поиск компании вы осуществляете по собственному желанию (через Интернет, газеты, журналы, знакомых и т.д.). Главное, запомните, что необходимо дать точную информацию о длине, высоте, ширине и массе груза.
+                        </li>
+                        <li>
+                          <strong>Оформление разрешения на перевозку негабаритного груза.</strong> <br>Самый верный способ — поручить оформление транспортной компании, которая занимается перевозкой. Это сведёт риски к минимуму, ведь вся ответственность ложится на организацию. Перед тем, как оформить разрешение, вы должны быть уверены, что у вас есть исправная техника, пригодная для перевозки и, если требуется, сопровождение ДПС.
+                        </li>
+                        <li>
+                          <strong>Организация погрузки и выгрузки.</strong> <br>В целом, организации-перевозчики сами погружают и выгружают груз. Но если для вашего груза требуется кран, а у компании его нет. То есть множество других организаций, предоставляющих краны.
+                        </li>
+                        <li>
+                          <strong>Перевозка груза в срок и без задержек.</strong> <br>Итак, вы уже знаете, что надо перевезти, вы выбрали тех, кто осуществит перевозку, вы оформили нужные разрешения, вы уверены, что есть кому погрузить и выгрузить груз — приступайте к перевозке.
+                        </li>
+                      </ol>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="b-expanded-box uk-margin-bottom e-spoiler">
+            <div class="b-expanded-box--header e-spoiler--button">
+              <button class="b-expanded-box--toggle-button">
+                <span class="b-expanded-box--open-ico" uk-icon="icon: plus"></span>
+                <span class="b-expanded-box--close-ico" uk-icon="icon: minus"></span>
+              </button>
+              <h2 class="b-expanded-box--title uk-h4">
+                Паллеты
+              </h2>
+            </div>
+            <div class="b-expanded-box--body">
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    Классификация паллет
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-flex-center" uk-grid>
+                      <div class="uk-width-5-6@s">
+                        <article class="b-article">
+                          <h3>
+                            Паллеты имеют следующую классификацию:
+                          </h3>
+                          <ol>
+                            <li>
+                              <strong>По сроку службы.</strong>
+                              <ul>
+                                <li>
+                                  Одноразовые паллеты используют лишь однажды, после чего выбрасывают или перерабатывают.
+                                </li>
+                                <li>
+                                  Многооборотные поддоны – возможно многократное использование без ухудшения характеристик. Прочные паллеты, рассчитанные на длительную эксплуатацию.
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <strong>По количеству заходов для вилочного подхвата.</strong>
+                              <ul>
+                                <li>
+                                  Двухзаходные паллеты, подхватываемые с противоположных сторон.
+                                </li>
+                                <li>
+                                  Четырехзаходные паллеты с возможностью всестороннего обхвата. Такое решение делает погрузочные работы более безопасными для груза, так как многократно снижается риск повредить его при подъеме и спуске.
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <strong>По материалу изготовления.</strong>
+                              <ul>
+                                <li>
+                                  Дерево – самый распространенный сейчас материал для паллет. Изготавливаемый из дерева поддон легко ремонтируется, экологически безопасен и достаточно дешев.
+                                </li>
+                                <li>
+                                  Пластмассовые паллеты занимают второе место по распространенности. Современная пластмасса не только не уступает дереву по качеству, но зачастую и превосходит его: имеет меньший вес при той же прочности, легко хранится, не поддается гниению, не требует специальной обработки и т.д.
+                                </li>
+                                <li>
+                                  Металлические паллеты обладают высокой прочностью и, соответственно, длительным сроком службы. Однако за счет большого веса их использование ограничено.
+                                </li>
+                                <li>
+                                  Комбинированные материалы – вариант, объединяющий плюсы каждого из перечисленных выше вариантов.
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <strong>По количеству площадок для размещения груза.</strong>
+                              <ul>
+                                <li>
+                                  Однонастильные паллеты позволяют размещать груз только на одной ее стороне.
+                                </li>
+                                <li>
+                                  Двухнастильные паллеты имеет два настила: верхний и нижний. За счет этого на верхнюю площадку можно поместить дополнительный груз. Такие паллеты существенно экономят полезную площадь – груз можно размещать в два слоя без угрозы повреждения.
+                                </li>
+                              </ul>
+                            </li>
+                          </ol>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="uk-grid" uk-grid>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong>Паллета (поддон)</strong> — это вспомогательное средство для осуществления погрузочно-разгрузочных работ предметов одинаковой формы и габаритов, которое упростило и стандартизировало процесс погрузки.
+                          </p>
+                        </article>
+                      </div>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            <strong>Дополнительно:</strong> Кроме того, бывают особые паллеты для перевозки ценных, хрупких или просто нестандартных грузов. Как правило, это стандартные поддоны, которые при помощи комплектов специальных деталей оснащаются стойками, полками, ящиками, рамами, угловыми профилями и решетчатыми стенками. В железнодорожных (иногда и в автомобильных) грузоперевозках также применяются специальные паллеты – флеты, тилты, болстеры. Это огромные поддоны по размерам грузовой платформы, оборудованные фитингами (крепежами для груза). В зависимости от вида и предназначения такого поддона, у него могут быть складные стенки, торцевые борта, каркасные надстройки или полноценные стенки высотой с половину стандартного контейнера.
+                          </p>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    Типы паллет
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-flex-center" uk-grid>
+                      <div class="uk-width-5-6@s">
+                        <article class="b-article">
+                          <h3>
+                            По типу паллеты делятся на три вида:
+                          </h3>
+                          <ol>
+                            <li>
+                              <strong>Сертифицированный европаллет (EUR-паллет).</strong>
+                              <ul>
+                                <li>
+                                  Линейные размеры: 800х1200х145мм.
+                                </li>
+                                <li>
+                                  Обязательно: Наличие фасок на углах европаллета, а так же фирменного клейма EUR в овале, выжженного на правых несущих ножках паллета. На остальных ножках тоже нанесена маркировка, но она указывает производителя (PKP, FS, DB и т. п.) и информация о серии, и о годе выпуска..
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <strong>Сертифицированный финпаллет (FIN-паллет, финский паллет).</strong>
+                              <ul>
+                                <li>
+                                  Линейные размеры: 1000х1200х145мм.
+                                </li>
+                                <li>
+                                  Обязательно: Наличие фасок на углах финпаллета, а так же наличие фирменного клейма FIN в прямоугольнике, выжженого на правых несущих ножках паллета. На остальных ножках также нанесена цифровая информация, указывающая код производителя и дату выпуска.
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <strong>Паллет американского стандарта.</strong>
+                              <ul>
+                                <li>
+                                  Линейные размеры: 1200х1200мм.
+                                </li>
+                                <li>
+                                  Американские поддоны изготовлены в соответствии с основополагающими принципами Международного комитета по защите растений МСФМ15. Это означает, что поддоны производятся в соответствии с международным кодом и могут использоваться для перевозки грузов через международные границы.
+                                </li>
+                                <li>
+                                  Древесные материалы толщиной более 6мм, из которых производят поддоны, проходят обязательную термическую обработку в целях предотвращения распространения болезней дерева и насекомых, которые могут негативно влиять на растения или экосистемы.
+                                </li>
+                              </ul>
+                            </li>
+                          </ol>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    Состояние паллет
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-flex-center" uk-grid>
+                      <div class="uk-width-5-6@s">
+                        <article class="b-article">
+                          <h3>
+                            По состоянию паллеты делятся на три сорта:
+                          </h3>
+                          <ol>
+                            <li>
+                              <strong>Высший сорт.</strong>
+                              <ul>
+                                <li>
+                                  Практически новые, белые, крепкие паллеты.
+                                </li>
+                                <li>
+                                  Без сколов и трещин.
+                                </li>
+                                <li>
+                                  Были использованы не более трех раз.
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <strong>Первый сорт.</strong>
+                              <ul>
+                                <li>
+                                  Белые, крепкие паллеты.
+                                </li>
+                                <li>
+                                  Без сколов и трещин.
+                                </li>
+                                <li>
+                                  Не были подвергнуты ремонту.
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <strong>Второй сорт.</strong>
+                              <ul>
+                                <li>
+                                  Допускаются небольшие загрязнения, и потемнение древесины от времени.
+                                </li>
+                                <li>
+                                  Допускаются небольшие трещины и сколы (но не более 3см в ширину и 30см в длину).
+                                </li>
+                                <li>
+                                  Часть из них может быть после ремонта.
+                                </li>
+                              </ul>
+                            </li>
+                          </ol>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    Использование паллет
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-grid" uk-grid>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            При ведении Внешней Экономической Деятельности, или в случае использования производственных линий с жесткими требованиями к используемым паллетам, понадобятся сертифицированные европейские или финские паллеты. Они изготовлены в жестком соответствии с принятыми в странах Европы ГОСТами.
+                          </p>
+                        </article>
+                      </div>
+                      <div class="uk-width-1-2@s">
+                        <article class="b-article">
+                          <p>
+                            Для работы на внутреннем рынке подходят любые паллеты. Самые простые и дешевые поддоны сделаны из мягкой древесины и часто являются невозвратной тарой, подлежащей утилизации вместе с другими упаковочными материалами. Эти поддоны имеют простую конструкцию, которая позволяет поднимать их только из двух противоположных положений.
+                          </p>
+                          <p>
+                            <strong>Дополнительно:</strong> Ненагруженный поддон весит 15-21 килограмм. Большинство поддонов может легко нести груз более 1000 кг.
+                          </p>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="b-spoiler-box e-spoiler">
+                <div class="b-spoiler-box--header e-spoiler--button">
+                  <button class="b-spoiler-box--toggle-button">
+                    <span class="b-spoiler-box--open-ico" uk-icon="icon: plus"></span>
+                    <span class="b-spoiler-box--close-ico" uk-icon="icon: minus"></span>
+                  </button>
+                  <h3 class="b-spoiler-box--title uk-h5">
+                    Как в паллете прикрепляется груз?
+                  </h3>
+                </div>
+                <div class="b-spoiler-box--body">
+                  <div class="uk-padding">
+                    <div class="uk-flex-center" uk-grid>
+                      <div class="uk-width-5-6@s">
+                        <article class="b-article">
+                          <div class="b-example-list">
+                            <div class="b-example-list--item">
+                              <div class="b-example-list--preview">
+                                <img class="b-example-list--image" src="upload/img-3.jpg" alt="">
+                              </div>
+                              <div class="b-example-list--wrapper">
+                                <div class="b-example-list--holder">
+                                  За счёт укладки, когда груз удерживается благодаря собственному весу (например, слитки золота).
+                                </div>
+                              </div>
+                            </div>
+                            <div class="b-example-list--item">
+                              <div class="b-example-list--preview">
+                                <img class="b-example-list--image" src="upload/img-4.jpg" alt="">
+                              </div>
+                              <div class="b-example-list--wrapper">
+                                <div class="b-example-list--holder">
+                                  За счёт обвязки паллеты с грузом крепежными лентами (полимерными, ткаными, металлическими).
+                                </div>
+                              </div>
+                            </div>
+                            <div class="b-example-list--item">
+                              <div class="b-example-list--preview">
+                                <img class="b-example-list--image" src="upload/img-5.jpg" alt="">
+                              </div>
+                              <div class="b-example-list--wrapper">
+                                <div class="b-example-list--holder">
+                                  За счёт оборачивания груза с паллетой в растягивающуюся плёнку или стретч-плёнку (происходит от английского слова stretch — «растягиваться»)..
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            </div>
+          </section>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="b-footer" id="footer">
+
+      <div class="uk-container">
+        <div uk-grid>
+          <div class="uk-width-1-2@l">
+            <div uk-grid>
+              <div class="uk-width-1-2@s">
+
+                <p class="b-copyright">
+                  © 2016–2017 ООО «ГудСтендингПартнерс»
+                </p>
+
+              </div>
+              <div class="uk-width-1-2@s">
+
+                <ul class="b-footer-menu">
+                  <li>
+                    <a href="#">
+                      О нас
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Контакты
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-1-2@l">
+            <div uk-grid>
+              <div class="uk-width-auto@s">
+
+                <p class="b-footer-social">
+                  <a class="uk-icon-button uk-margin-small-right" href="#" uk-icon="icon: facebook"></a>
+                  <a class="uk-icon-button uk-margin-small-right" href="#" uk-icon="icon: vk"></a>
+                  <a class="uk-icon-button uk-margin-small-right" href="#" uk-icon="icon: twitter"></a>
+                  <a class="uk-icon-button" href="#" uk-icon="icon: google-plus"></a>
+                </p>
+
+              </div>
+              <div class="uk-width-expand@s">
+
+                <p class="b-contacts">
+                  8 800 000 00 00, suport@site.ru
+                </p>
+
+              </div>
+              <div class="uk-width-auto@s">
+
+                <p class="b-creator">
+                  Сделано в <a href="#">ROKOSE</a>
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+  </div>
+
+  <!-- Registry modal -->
+  <div id="registry" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+      <button class="uk-modal-close-default" type="button" uk-close></button>
+      <ul uk-tab>
+        <li class="uk-active">
+          <a href="#">
+            Грузовладелец
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Перевозчик
+          </a>
+        </li>
+      </ul>
+      <ul class="uk-switcher uk-margin">
+        <li>
+          <form class="uk-form-stacked">
+            <div class="uk-grid-small" uk-grid>
+              <div class="uk-width-1-2@s">
+                <div class="uk-margin-small">
+                  <label class="uk-form-label" for="email">
+                    Имя
+                  </label>
+                  <div class="uk-form-controls">
+                    <input class="uk-input" id="email" type="text" placeholder="Имя">
+                  </div>
+                </div>
+              </div>
+              <div class="uk-width-1-2@s">
+                <div class="uk-margin-small">
+                  <label class="uk-form-label" for="email">
+                    Фамилия
+                  </label>
+                  <div class="uk-form-controls">
+                    <input class="uk-input" id="email" type="text" placeholder="Фамилия">
+                  </div>
+                </div>
+              </div>
+              <div class="uk-width-1-2@s">
+                <div class="uk-margin-small">
+                  <label class="uk-form-label" for="email">
+                    Эл. почта
+                  </label>
+                  <div class="uk-form-controls">
+                    <input class="uk-input" id="email" type="text" placeholder="Эл. почта">
+                  </div>
+                </div>
+              </div>
+              <div class="uk-width-1-2@s">
+                <div class="uk-margin-small">
+                  <label class="uk-form-label" for="email">
+                    Телефон
+                  </label>
+                  <div class="uk-form-controls">
+                    <input class="uk-input" id="email" type="text" placeholder="Телефон">
+                  </div>
+                </div>
+              </div>
+              <div class="uk-width-1-2@s">
+                <div class="uk-margin-small">
+                  <label class="uk-form-label" for="password">
+                    Пароль
+                  </label>
+                  <div class="uk-form-controls">
+                    <input class="uk-input" id="password" type="password" placeholder="Пароль">
+                  </div>
+                </div>
+              </div>
+              <div class="uk-width-1-2@s">
+                <div class="uk-margin-small">
+                  <label class="uk-form-label" for="password">
+                    Повторите пароль
+                  </label>
+                  <div class="uk-form-controls">
+                    <input class="uk-input" id="password" type="password" placeholder="Повторите пароль">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-margin uk-text-center">
+              <div class="uk-margin-small uk-text-center uk-text-muted">
+                <label><input class="uk-checkbox" type="checkbox"> Я даю согласие на обработку персональных данных</label>
+              </div>
+              <div class="uk-margin-small uk-text-center uk-text-muted">
+                <label><input class="uk-checkbox" type="checkbox"> Я принимаю <a class="uk-link-muted" href="#">пользовательское соглашение</a> сервиса</label>
+              </div>
+            </div>
+            <div class="uk-margin-medium-top uk-text-center">
+              <button class="uk-button uk-button-primary uk-button-large">
+                ЗАРЕГИСТРИРОВАТЬСЯ
+              </button>
+            </div>
+          </form>
+        </li>
+        <li>
+          <form class="uk-form-stacked">
+            <div class="uk-grid-small" uk-grid>
+              <div class="uk-width-1-2@s">
+                <div class="uk-margin-small">
+                  <label class="uk-form-label" for="email">
+                    Имя
+                  </label>
+                  <div class="uk-form-controls">
+                    <input class="uk-input" id="email" type="text" placeholder="Имя">
+                  </div>
+                </div>
+              </div>
+              <div class="uk-width-1-2@s">
+                <div class="uk-margin-small">
+                  <label class="uk-form-label" for="email">
+                    Фамилия
+                  </label>
+                  <div class="uk-form-controls">
+                    <input class="uk-input" id="email" type="text" placeholder="Фамилия">
+                  </div>
+                </div>
+              </div>
+              <div class="uk-width-1-2@s">
+                <div class="uk-margin-small">
+                  <label class="uk-form-label" for="email">
+                    Эл. почта
+                  </label>
+                  <div class="uk-form-controls">
+                    <input class="uk-input" id="email" type="text" placeholder="Эл. почта">
+                  </div>
+                </div>
+              </div>
+              <div class="uk-width-1-2@s">
+                <div class="uk-margin-small">
+                  <label class="uk-form-label" for="email">
+                    Телефон
+                  </label>
+                  <div class="uk-form-controls">
+                    <input class="uk-input" id="email" type="text" placeholder="Телефон">
+                  </div>
+                </div>
+              </div>
+              <div class="uk-width-1-2@s">
+                <div class="uk-margin-small">
+                  <label class="uk-form-label" for="password">
+                    Пароль
+                  </label>
+                  <div class="uk-form-controls">
+                    <input class="uk-input" id="password" type="password" placeholder="Пароль">
+                  </div>
+                </div>
+              </div>
+              <div class="uk-width-1-2@s">
+                <div class="uk-margin-small">
+                  <label class="uk-form-label" for="password">
+                    Повторите пароль
+                  </label>
+                  <div class="uk-form-controls">
+                    <input class="uk-input" id="password" type="password" placeholder="Повторите пароль">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-margin uk-text-center">
+              <div class="uk-margin-small uk-text-center uk-text-muted">
+                <label><input class="uk-checkbox" type="checkbox"> Я даю согласие на обработку персональных данных</label>
+              </div>
+              <div class="uk-margin-small uk-text-center uk-text-muted">
+                <label><input class="uk-checkbox" type="checkbox"> Я принимаю <a class="uk-link-muted" href="#">пользовательское соглашение</a> сервиса</label>
+              </div>
+            </div>
+            <div class="uk-margin-medium-top uk-text-center">
+              <button class="uk-button uk-button-primary uk-button-large">
+                ЗАРЕГИСТРИРОВАТЬСЯ
+              </button>
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Signin modal -->
+  <div id="signin" uk-modal>
+    <div class="uk-modal-dialog uk-modal-dialog-small uk-modal-body">
+      <button class="uk-modal-close-default" type="button" uk-close></button>
+      <form class="uk-form-stacked">
+        <div class="uk-margin">
+          <label class="uk-form-label" for="email">
+            Эл. почта
+          </label>
+          <div class="uk-form-controls">
+            <input class="uk-input" id="email" type="text" placeholder="Эл. почта">
+          </div>
+        </div>
+        <div class="uk-margin">
+          <label class="uk-form-label" for="password">
+            Пароль
+          </label>
+          <div class="uk-form-controls">
+            <input class="uk-input" id="password" type="password" placeholder="Пароль">
+          </div>
+        </div>
+        <div class="uk-margin-medium-top uk-text-center">
+          <button class="uk-button uk-button-primary uk-button-large">
+            Вход
+          </button>
+        </div>
+        <div class="uk-margin-medium-top uk-text-center">
+          <a class="uk-link-muted" href="#forget" uk-toggle="target: #forget">
+            Напомнить пароль
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Forget modal -->
+  <div id="forget" uk-modal>
+    <div class="uk-modal-dialog uk-modal-dialog-small uk-modal-body">
+      <button class="uk-modal-close-default" type="button" uk-close></button>
+      <form class="uk-form-stacked">
+        <div class="uk-margin">
+          <label class="uk-form-label" for="email">
+            Эл. почта
+          </label>
+          <div class="uk-form-controls">
+            <input class="uk-input" id="email" type="text" placeholder="Эл. почта">
+          </div>
+        </div>
+        <div class="uk-margin-medium-top uk-text-center">
+          <button class="uk-button uk-button-primary uk-button-large">
+            Выслать пароль
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/uikit.js"></script>
+  <script src="js/uikit-icons.js"></script>
+  <script src="js/add.js"></script>
+
+  <script>
+    $(function () {
+      $(document).on('click', '[data-show]', function (event) {
+        event.preventDefault();
+        $(this.getAttribute('data-show')).show();
+      });
+      $(document).on('click', '[data-hide]', function (event) {
+        event.preventDefault();
+        $(this.getAttribute('data-hide')).hide();
+      });
+    });
+  </script>
+
+</body>
+</html>
