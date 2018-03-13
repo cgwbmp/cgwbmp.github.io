@@ -50,6 +50,16 @@ a:hover, a:focus, a:active {
 	left: 0;
 	width: 100%;
 }
+.b-header.f-animation-enabled {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
 .b-header.t-white {
 	color: #fff;
 }
@@ -92,6 +102,16 @@ a:hover, a:focus, a:active {
 .b-footer {
 	position: relative;
 	background: #fff;
+}
+.b-footer.f-animation-enabled {
+	position: fixed;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
 }
 	.b-footer--wrapper {
 		padding: 40px;

@@ -41,6 +41,35 @@
     vertical-align: baseline;
     box-sizing: border-box;
   }
+@media screen and (max-height: 880px) {
+  .b-main-promo--wrapper {
+    padding-top: 140px;
+  }
+  .b-main-promo--subtitle {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-height: 700px) {
+  .b-main-promo--action {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-height: 640px) and (min-width: 1040px) {
+  .b-main-promo--wrapper {
+    padding-top: 100px;
+  }
+  .b-main-promo--title {
+    padding: 0 0 0 340px !important;
+    font-size: 86px !important;
+    line-height: 90px !important;
+  }
+  .b-main-promo--subtitle {
+    padding-top: 20px;
+  }
+  .b-main-promo--action {
+    padding-top: 20px;
+  }
+}
 @media screen and (max-width: 1400px) {
   .b-main-promo--title {
     font-size: 100px;
@@ -295,7 +324,7 @@
     position: relative;
   }
   .b-promo-animation.f-animation-enabled {
-    height: 2000px;
+    height: 2600px;
   }
   .b-promo-animation.f-animation-enabled .b-promo-animation--mask {
     position: fixed;
@@ -305,14 +334,18 @@
     bottom: 0;
     overflow: hidden;
   }
+    .b-promo-animation--wrapper {
+      background: url("../img/promo/bg.jpg") 0 0 no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+    }
     .b-promo-animation.f-animation-enabled .b-promo-animation--wrapper {
       position: absolute;
       top: 0;
       left: -30%;
       width: 4000px;
       height: 2250px;
-      background: url("../img/promo/bg.jpg") 0 0 no-repeat;
-      background-size: 100%;
+      background-attachment: scroll;
     }
     .b-promo-animation.f-animation-enabled .b-promo-animation--wrapper {
       -o-transition: all 1s;
