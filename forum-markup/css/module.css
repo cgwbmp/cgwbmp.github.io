@@ -356,7 +356,7 @@
       background-size: 100%;
       background-attachment: scroll;
     }
-    .b-promo-animation.f-animation-enabled .b-promo-animation--wrapper {
+    .b-promo-animation.f-transition-enabled .b-promo-animation--wrapper {
       -o-transition: all 1s;
       -moz-transition: all 1s;
       -webkit-transition: all 1s;
@@ -425,6 +425,7 @@
 
 .b-info-section {
   position: relative;
+  width: 100%;
   min-height: 1450px;
   overflow: hidden;
 }
@@ -432,7 +433,7 @@
 	content: "";
 	width: 100%;
 	clear: both;
-	display: block;
+	display: table;
 }
 .b-info-section.t-with-big-dot:before {
   content: "";
@@ -1168,4 +1169,10 @@
   height: 100%;
   margin: auto;
   display: block;
+}
+
+.b-slide-scroll {
+  position: relative;
+  height: 100%;
+  overflow: auto;
 }

@@ -125,10 +125,6 @@
 					new Swiper(modal.find('.swiper-container')[0], {
 						initialSlide: groupImages.indexOf(currentImage),
 						loop: true,
-						pagination: {
-							el: modal.find('.swiper-pagination')[0],
-							type: 'fraction',
-						},
 						navigation: {
 							nextEl: modal.find('.swiper-button-next')[0],
 							prevEl: modal.find('.swiper-button-prev')[0],
@@ -146,6 +142,29 @@
 						modal.remove();
 					});
 				};
+			});
+			$('.e-modal-combo').on('click', function () {
+				var position = parseInt(this.getAttribute('data-position'));
+				var modal = $(this.getAttribute('data-target'));
+				var swiper;
+				console.log(position);
+				modal.modal('show');
+				var timeout = setTimeout(function () {
+					swiper = new Swiper(modal.find('.swiper-container')[0], {
+						initialSlide: position,
+						loop: false,
+						navigation: {
+							nextEl: modal.find('.swiper-button-next')[0],
+							prevEl: modal.find('.swiper-button-prev')[0],
+						}
+					});
+				}, 1000);
+				modal.on('hidden.bs.modal', function (e) {
+					clearTimeout(timeout);
+					if (swiper) {
+						swiper.destroy();
+					};
+				});
 			});
 		};
 	});

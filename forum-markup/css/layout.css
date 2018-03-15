@@ -35,6 +35,7 @@ a:hover, a:focus, a:active {
 
 .b-page {
 	position: relative;
+	width: 100%;
 	height: auto;
 	min-height: 100%;
 	overflow: hidden;

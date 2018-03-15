@@ -227,12 +227,12 @@
 							<div class="swiper-container">
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<button class="b-info-section--image-holder c-block-button e-modal-gallery" data-image="upload/img-11.jpg">
+										<button class="b-info-section--image-holder c-block-button e-modal-combo" data-position="0" data-target="#infrastructure-map-modal">
 											<img class="b-info-section--image swiper-image" src="upload/img-11.jpg" alt="">
 										</button>
 									</div>
 									<div class="swiper-slide">
-										<button class="b-info-section--image-holder c-block-button" data-toggle="modal" data-target="#infrastructure-map-modal">
+										<button class="b-info-section--image-holder c-block-button e-modal-combo" data-position="1" data-target="#infrastructure-map-modal">
 											<img class="b-info-section--image swiper-image" src="upload/img-13.jpg" alt="">
 										</button>
 									</div>
@@ -476,7 +476,7 @@
 	</div>
 
 	<!-- Infrastructure map modal -->
-	<div id="infrastructure-map-modal" class="c-modal t-full modal fade animated fadeIn" tabindex="-1" role="dialog" aria-hidden="true">
+	<div id="infrastructure-map-modal" class="c-modal t-gallery modal fade animated fadeIn" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="c-modal--wrapper modal-dialog" role="document">
 			<div class="c-modal--content">
 				<button class="c-modal--close-button" type="button" data-dismiss="modal">
@@ -484,52 +484,69 @@
 				</button>
 				<div class="c-modal--holder">
 
-					<section class="b-infrastructure-section">
-						<div class="b-infrastructure-section--wrapper">
+					<div class="b-modal-gallery swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img class="swiper-image" src="upload/img-11.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<div class="b-slide-scroll">
 
-							<ul class="c-dotted-list e-image-control">
-								<li class="c-dotted-list--item e-image-control--item">
-									<button class="c-text-button e-image-control--button" type="button" data-image="#infrastructure-image-1">
-										Продукты
-									</button>
-								</li>
-								<li class="c-dotted-list--item e-image-control--item">
-									<button class="c-text-button e-image-control--button" type="button" data-image="#infrastructure-image-2">
-										Здоровье
-									</button>
-								</li>
-								<li class="c-dotted-list--item e-image-control--item">
-									<button class="c-text-button e-image-control--button" type="button" data-image="#infrastructure-image-3">
-										Образование
-									</button>
-								</li>
-								<li class="c-dotted-list--item e-image-control--item">
-									<button class="c-text-button e-image-control--button" type="button" data-image="#infrastructure-image-4">
-										Спорт и отдых
-									</button>
-								</li>
-								<li class="c-dotted-list--item e-image-control--item">
-									<button class="c-text-button e-image-control--button" type="button" data-image="#infrastructure-image-5">
-										Шоппинг
-									</button>
-								</li>
-								<li class="c-dotted-list--item e-image-control--item">
-									<button class="c-text-button e-image-control--button" type="button" data-image="#infrastructure-image-6">
-										Кафе и рестораны
-									</button>
-								</li>
-							</ul>
+									<section class="b-infrastructure-section">
+										<div class="b-infrastructure-section--wrapper">
 
+											<ul class="c-dotted-list e-image-control">
+												<li class="c-dotted-list--item e-image-control--item">
+													<button class="c-text-button e-image-control--button" type="button" data-image="#infrastructure-image-1">
+														Продукты
+													</button>
+												</li>
+												<li class="c-dotted-list--item e-image-control--item">
+													<button class="c-text-button e-image-control--button" type="button" data-image="#infrastructure-image-2">
+														Здоровье
+													</button>
+												</li>
+												<li class="c-dotted-list--item e-image-control--item">
+													<button class="c-text-button e-image-control--button" type="button" data-image="#infrastructure-image-3">
+														Образование
+													</button>
+												</li>
+												<li class="c-dotted-list--item e-image-control--item">
+													<button class="c-text-button e-image-control--button" type="button" data-image="#infrastructure-image-4">
+														Спорт и отдых
+													</button>
+												</li>
+												<li class="c-dotted-list--item e-image-control--item">
+													<button class="c-text-button e-image-control--button" type="button" data-image="#infrastructure-image-5">
+														Шоппинг
+													</button>
+												</li>
+												<li class="c-dotted-list--item e-image-control--item">
+													<button class="c-text-button e-image-control--button" type="button" data-image="#infrastructure-image-6">
+														Кафе и рестораны
+													</button>
+												</li>
+											</ul>
+
+										</div>
+										<div class="b-infrastructure-section--gallery">
+											<img id="infrastructure-image-1" class="b-infrastructure-section--image" src="img/infrastructure/1.png" alt="">
+											<img id="infrastructure-image-2" class="b-infrastructure-section--image" src="img/infrastructure/2.png" alt="">
+											<img id="infrastructure-image-3" class="b-infrastructure-section--image" src="img/infrastructure/3.png" alt="">
+											<img id="infrastructure-image-4" class="b-infrastructure-section--image" src="img/infrastructure/4.png" alt="">
+											<img id="infrastructure-image-5" class="b-infrastructure-section--image" src="img/infrastructure/5.png" alt="">
+											<img id="infrastructure-image-6" class="b-infrastructure-section--image" src="img/infrastructure/6.png" alt="">
+										</div>
+									</section>
+
+								</div>
+							</div>
 						</div>
-						<div class="b-infrastructure-section--gallery">
-							<img id="infrastructure-image-1" class="b-infrastructure-section--image" src="img/infrastructure/1.png" alt="">
-							<img id="infrastructure-image-2" class="b-infrastructure-section--image" src="img/infrastructure/2.png" alt="">
-							<img id="infrastructure-image-3" class="b-infrastructure-section--image" src="img/infrastructure/3.png" alt="">
-							<img id="infrastructure-image-4" class="b-infrastructure-section--image" src="img/infrastructure/4.png" alt="">
-							<img id="infrastructure-image-5" class="b-infrastructure-section--image" src="img/infrastructure/5.png" alt="">
-							<img id="infrastructure-image-6" class="b-infrastructure-section--image" src="img/infrastructure/6.png" alt="">
+						<div class="swiper-control">
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
 						</div>
-					</section>
+					</div>
 
 				</div>
 			</div>

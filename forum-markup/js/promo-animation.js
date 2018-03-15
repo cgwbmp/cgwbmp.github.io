@@ -15,6 +15,7 @@
 	var controller;
 
 	var isInit = false;
+	var isAnimationEnabled = false;
 
 	if (!isMobile && wrapperNode.size()) {
 		run();
@@ -81,6 +82,17 @@
 		return (2250 + footerNode.outerHeight() - height) * (position / 100);
 	};
 
+	function setAnimation (position) {
+		if (!isAnimationEnabled) {
+			promoNode.addClass('f-animation-enabled');
+			headerNode.addClass('f-animation-enabled');
+			footerNode.addClass('f-animation-enabled');
+			setTimeout(function () {
+				promoNode.addClass('f-transition-enabled');
+			}, 100);
+		};
+	};
+
 	function resizeHandler () {
 		setPosition();
 	};
@@ -102,10 +114,6 @@
 	function init () {
 		isInit = true;
 
-		promoNode.addClass('f-animation-enabled');
-		headerNode.addClass('f-animation-enabled');
-		footerNode.addClass('f-animation-enabled');
-
 		controller = new ScrollMagic.Controller();
 
 		new ScrollMagic.Scene({
@@ -118,6 +126,7 @@
 			targetElement = 'header';
 			setPosition();
 			setScrollLocking(0);
+			setAnimation();
 		})
 		.addTo(controller);
 
@@ -133,6 +142,7 @@
 			setScrollLocking(400);
 			boxesNode.removeClass('f-active').addClass('f-hidden');
 			$('#promo-box-2').removeClass('f-hidden').addClass('f-active');
+			setAnimation();
 		})
 		.addTo(controller);
 
@@ -148,6 +158,7 @@
 			setScrollLocking(800);
 			boxesNode.removeClass('f-active').addClass('f-hidden');
 			$('#promo-box-3').removeClass('f-hidden').addClass('f-active');
+			setAnimation();
 		})
 		.addTo(controller);
 
@@ -163,6 +174,7 @@
 			setScrollLocking(1200);
 			boxesNode.removeClass('f-active').addClass('f-hidden');
 			$('#promo-box-4').removeClass('f-hidden').addClass('f-active');
+			setAnimation();
 		})
 		.addTo(controller);
 
@@ -176,6 +188,7 @@
 			targetElement = 'footer';
 			setPosition();
 			boxesNode.removeClass('f-active').addClass('f-hidden');
+			setAnimation();
 		})
 		.addTo(controller);
 
