@@ -147,7 +147,6 @@
 				var position = parseInt(this.getAttribute('data-position'));
 				var modal = $(this.getAttribute('data-target'));
 				var swiper;
-				console.log(position);
 				modal.modal('show');
 				var timeout = setTimeout(function () {
 					swiper = new Swiper(modal.find('.swiper-container')[0], {
@@ -156,9 +155,10 @@
 						navigation: {
 							nextEl: modal.find('.swiper-button-next')[0],
 							prevEl: modal.find('.swiper-button-prev')[0],
-						}
+						},
+						simulateTouch: false
 					});
-				}, 1000);
+				}, 200);
 				modal.on('hidden.bs.modal', function (e) {
 					clearTimeout(timeout);
 					if (swiper) {

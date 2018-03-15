@@ -1164,6 +1164,14 @@
     background: rgba(0,0,0,0.8) url("../img/ico/arrow-right--white.svg") 50% 50% no-repeat;
     border-radius: 50%;
   }
+  .b-modal-gallery .b-infrastructure-section {
+    margin: 0 60px;
+  }
+@media screen and (max-width: 1040px) {
+  .b-modal-gallery .b-infrastructure-section {
+    margin: auto;
+  }
+}
 
 .b-modal-image {
   height: 100%;
