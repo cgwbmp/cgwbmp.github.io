@@ -79,7 +79,7 @@
 
 	function getTopPosition (position) {
 		var height = window.innerHeight;
-		return (2250 + footerNode.outerHeight() - height) * (position / 100);
+		return (2250 + footerNode.outerHeight() - height + 200) * (position / 100);
 	};
 
 	function setAnimation (position) {
