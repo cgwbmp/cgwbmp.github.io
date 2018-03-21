@@ -28,11 +28,11 @@
 		switch (targetElement) {
 			case 'header':
 				var top = 0;
-				var left = 50;
+				var left = 56;
 				break;
 			case 'info-1':
 				var top = getBlockTop($('#promo-box-2'));
-				var left = 50;
+				var left = 56;
 				break;
 			case 'info-2':
 				var top = getBlockTop($('#promo-box-3'));
