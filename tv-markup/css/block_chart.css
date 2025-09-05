@@ -1,0 +1,319 @@
+.b-chart_group {
+	position: relative;
+	height: 100%;
+}
+
+.b-chart_full {
+	position: relative;
+	width: 100%;
+	height: 88%;
+	max-height: 88% !important;
+	z-index: 5;
+}
+	.b-chart_full svg {
+		position: relative;
+	}
+
+.b-small_chart {
+	position: relative;
+	height: 6.5em !important;
+	max-height: 6.5em;
+	overflow: hidden;
+}
+	.b-small_chart svg {
+		position: relative;
+	}
+
+.b-bar_chart {
+	position: relative;
+	height: 100%;
+	max-height: 100% !important;
+}
+	.b-bar_chart svg {
+		position: relative;
+	}
+
+.b-chart_grid {
+	position: relative;
+	pointer-events: none;
+}
+.b-chart_grid.t-pa {
+	position: absolute;
+	top: 0;
+	left: 1%;
+	right: 1%;
+	bottom: 0;
+}
+.b-chart_grid.t-pb {
+	width: 100%;
+	overflow: hidden;
+	height: 1em;
+}
+	.b-chart_grid-block {
+		position: relative;
+		height: 100%;
+		float: left;
+	}
+	.b-chart_grid-block + .b-chart_grid-block {
+		border-left: 1px solid #555b68;
+		margin-left: -1px;
+	}
+	.b-chart_grid-title {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 2%;
+		overflow: hidden;
+		font-size: 0.75em;
+		font-weight: normal;
+		color: #b3b4b7;
+		text-transform: uppercase;
+		text-align: center;
+		-o-text-overflow: ellipsis;
+		-ms-text-overflow: ellipsis;
+		-mos-text-overflow: ellipsis;
+		-webkit-text-overflow: ellipsis;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.b-chart_grid-block.t-cd .b-chart_grid-title {
+		color: #fff;
+	}
+	.b-chart_grid-subblock {
+		position: relative;
+		height: 88%;
+		float: left;
+	}
+	.b-chart_grid-subblock + .b-chart_grid-subblock {
+		border-left: 1px solid #313439;
+		margin-left: -1px;
+	}
+	.b-chart_grid-subtitle {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		font-size: 0.70em;
+		color: #b3b4b7;
+		text-align: center;
+	}
+		.b-chart_grid-subtitle span {
+			margin-left: 2px;
+			font-size: 70%;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+.b-light_chart_grid {
+	position: relative;
+	pointer-events: none;
+}
+.b-light_chart_grid.t-pa {
+	position: absolute;
+	top: 0;
+	left: 1%;
+	right: 1%;
+	bottom: 0;
+}
+.b-light_chart_grid.t-pb {
+	height: 1em;
+	margin-left: 1%;
+	margin-right: 1%;
+	overflow: hidden;
+}
+	.b-light_chart_grid-block {
+		position: relative;
+		height: 100%;
+		float: left;
+	}
+	.b-light_chart_grid-subblock {
+		position: relative;
+		height: 100%;
+		float: left;
+	}
+	.b-light_chart_grid.t-lines .b-light_chart_grid-block + .b-light_chart_grid-block,
+	.b-light_chart_grid.t-lines .b-light_chart_grid-subblock + .b-light_chart_grid-subblock {
+		border-left: 1px solid #2e3338;
+		margin-left: -1px;
+	}
+	.b-light_chart_grid-subtitle {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		font-size: 0.75em;
+		color: #6c6c6d;
+		line-height: 1;
+		text-align: center;
+	}
+	.b-light_chart_grid.t-lines .b-light_chart_grid-subtitle {
+		display: none;
+	}
+		.b-light_chart_grid-subtitle span {
+			margin-left: 2px;
+			font-size: 70%;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+.b-divided_chart-line {
+	position: absolute;
+	top: 11%;
+	left: 0;
+	right: 0;
+	bottom: 14%;
+}
+	.b-divided_chart-item {
+		position: absolute;
+		left: 0;
+		right: 0;
+		border-top: 1px solid #2e3338;
+	}
+
+.b-chart_points {
+	position: absolute;
+	top: 11%;
+	left: 1%;
+	right: 1%;
+	bottom: 14%;
+}
+.b-chart_points.t-big {
+	top: 8%;
+	bottom: 20%;
+}
+.b-chart_points.t-bar {
+	top: 10%;
+	bottom: 2%;
+}
+	.b-chart_points-block {
+		position: absolute;
+		z-index: 2;
+	}
+	.b-chart_points-holder {
+		position: absolute;
+		top: -0.5em;
+		padding: 2px;
+		font-size: 0.75em;
+		font-weight: bold;
+		line-height: 1;
+		white-space: nowrap;
+	}
+	.b-chart_points-block.t-left .b-chart_points-holder {
+		left: 0.5em;
+	}
+	.b-chart_points-block.t-right .b-chart_points-holder {
+		right: 0.5em;
+	}
+	.b-chart_points-block.t-person .b-chart_points-holder:before {
+		content: '\e801';
+		width: 1em;
+		margin-right: 0.2em;
+		speak: none;
+		font-family: "Fontello";
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		line-height: 1em;
+		text-align: center;
+		text-decoration: inherit;
+		text-transform: none;
+		display: inline-block;
+	}
+
+.b-bar_points {
+	position: absolute;
+	top: 11%;
+	left: 1%;
+	right: 1%;
+	bottom: 3%;
+}
+	.b-bar_points-group {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+	}
+	.b-bar_points-subgroup {
+		position: absolute;
+		top: 0;
+		left: 20%;
+		right: 20%;
+		bottom: 0;
+	}
+	.b-bar_points-block {
+		position: absolute;
+		height: 0;
+		text-align: center;
+		z-index: 2;
+	}
+	.b-bar_points-holder {
+		margin-top: -1.3em;
+		font-size: 0.75em;
+		font-weight: bold;
+		line-height: 1;
+		white-space: nowrap;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+.b-chart_limit-block {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	text-align: center;
+	z-index: 2;
+}
+	.b-chart_limit-holder {
+		margin-top: -0.6em;
+		padding: 2px;
+		background: #4b515c;
+		font-weight: bold;
+		color: #fff;
+		line-height: 1;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+.b-stat_full {
+	position: absolute;
+	top: 2em;
+	left: 0.8em;
+	right: 0.8em;
+	bottom: 0.8em;
+}
+	.b-stat_full-chart {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 50%;
+	}
+	.b-stat_full-text {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		padding-top: 0.4em;
+	}
+
+.b-list_full {
+	position: relative;
+	height: 100%;
+	white-space: nowrap;
+}
+	.b-list_full-item {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		margin-right: -0.22em;
+		white-space: normal;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.b-list_full.t-count5 .b-list_full-item {
+		width: 20%;
+	}
+	.b-list_full-item + .b-list_full-item {
+		border-left: 1px solid #555b68;
+		margin-left: -1px;
+	}
